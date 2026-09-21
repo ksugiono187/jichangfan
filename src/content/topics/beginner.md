@@ -1,5 +1,5 @@
 ---
-title: "新手入门必读系列"
+title: "新手入门必读"
 description: "从零开始教你科学上网，涵盖客户端下载、订阅链接配置及常见问题解答，帮助小白最快上手。"
 featured: true
 updatedDate: 2026-09-21

@@ -14,7 +14,25 @@ export async function getStaticPaths() {
 const { topic } = Astro.props;
 const { Content } = await render(topic);
 const allPosts = await getCollection('blog');
-const relatedPosts = allPosts.slice(0, 3); // 占位：实际应根据专题匹配文章
+
+// 根据专题的 ID 或 Title 动态匹配相关的文章
+const relatedPosts = allPosts.filter(post => {
+  const keywordStr = `${topic.id} ${topic.data.title}`.toLowerCase();
+  const searchStr = `${post.data.title} ${post.data.description} ${post.data.tags.join(' ')} ${post.data.category}`.toLowerCase();
+  
+  // 简单匹配：如果文章标题、描述、标签中包含专题的任意关键词（取交集或部分匹配）
+  if (topic.id === 'beginner') return searchStr.includes('新手') || searchStr.includes('常见解答');
+  if (topic.id === 'clash') return searchStr.includes('clash');
+  if (topic.id === 'shadowrocket') return searchStr.includes('shadowrocket') || searchStr.includes('小火箭');
+  if (topic.id === 'sing-box') return searchStr.includes('sing-box') || searchStr.includes('singbox');
+  if (topic.id === 'airport-guide') return searchStr.includes('机场') || searchStr.includes('评测') || searchStr.includes('对比');
+  
+  // 默认回退匹配
+  return searchStr.includes(topic.id.toLowerCase());
+}).slice(0, 6);
+
+// 如果匹配不到，则随机/默认显示最新的6篇
+const finalPosts = relatedPosts.length > 0 ? relatedPosts : allPosts.slice(0, 6);
 ---
 <BaseLayout title={topic.data.title} description={topic.data.description}>
   <div class="max-w-4xl mx-auto px-4 py-16">
@@ -27,7 +45,7 @@ const relatedPosts = allPosts.slice(0, 3); // 占位：实际应根据专题匹�
     </div>
     <h2 class="text-2xl font-bold mb-6">专题相关文章</h2>
     <div class="grid md:grid-cols-2 gap-6">
-      {relatedPosts.map(post => <ArticleCard post={post} />)}
+      {finalPosts.map(post => <ArticleCard post={post} />)}
     </div>
   </div>
 </BaseLayout>
