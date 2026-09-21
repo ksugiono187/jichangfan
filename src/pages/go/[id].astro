@@ -12,7 +12,7 @@ export function getStaticPaths() {
 const { id } = Astro.params;
 const targetUrl = REDIRECTS[id] || '/';
 ---
-<BaseLayout title="正在跳转..." description="页面跳转中">
+<BaseLayout title="正在跳转..." description="页面跳转中" noindex={true}>
   <div class="max-w-md mx-auto px-4 py-32 text-center">
     <div class="w-16 h-16 border-4 border-amber-700/50 border-t-amber-500 rounded-full animate-spin mx-auto mb-8"></div>
     <h1 class="text-2xl font-bold mb-4">正在前往目标页面</h1>
