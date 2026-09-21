@@ -2,6 +2,7 @@
 title: "边缘节点 EdgeNova 什么是IPLC（附图文详解）"
 description: "本文针对 边缘节点 EdgeNova 什么是IPLC 进行了深度横向对比，带您了解其背后的技术原理与性价比。"
 pubDate: 2026-01-24T18:00:38Z
+updatedDate: 2026-09-21T08:00:00Z
 author: "节点GO 编辑部"
 category: "机场FAQ"
 tags: ["机场FAQ", "边缘节点", "科学上网"]

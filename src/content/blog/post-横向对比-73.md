@@ -2,6 +2,7 @@
 title: "IPLC与IEPL对比：微风网络 Breezenet 与 光年梯 深度解析"
 description: "本文针对 IPLC与IEPL对比：微风网络 Breezenet 与 光年梯 深度解析 进行了深度横向对比，带您了解其背后的技术原理与性价比。"
 pubDate: 2026-06-05T18:00:37Z
+updatedDate: 2026-09-21T08:00:00Z
 author: "节点GO 编辑部"
 category: "横向对比"
 tags: ["横向对比", "微风网络", "科学上网"]

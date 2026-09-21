@@ -2,6 +2,7 @@
 title: "Firefly机场 防跑路评估 [防坑指南]"
 description: "针对近期用户关心的 防跑路评估 问题，我们对 Firefly机场 进行了长达一周的监控，得出以下结论。"
 pubDate: 2026-07-26T18:00:37Z
+updatedDate: 2026-09-21T08:00:00Z
 author: "节点GO 编辑部"
 category: "深度测评"
 tags: ["深度测评", "Firefly机场", "科学上网"]

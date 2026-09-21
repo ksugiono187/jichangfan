@@ -2,6 +2,7 @@
 title: "如何配置：一翻云 与 微风网络 Breezenet 深度解析"
 description: "想知道 如何配置：一翻云 与 微风网络 Breezenet 深度解析 到底怎么样？本文通过实测数据为您全面揭秘。"
 pubDate: 2026-06-18T18:00:37Z
+updatedDate: 2026-09-21T08:00:00Z
 author: "节点GO 编辑部"
 category: "新手教程"
 tags: ["新手教程", "一翻云", "科学上网"]

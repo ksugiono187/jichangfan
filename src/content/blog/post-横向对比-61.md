@@ -2,6 +2,7 @@
 title: "快狸 KuaiLi 哪家最适合打游戏"
 description: "全网独家评测：快狸 的 KuaiLi 哪家最适合打游戏 体验究竟如何？结合晚高峰实测给您最真实的结论。"
 pubDate: 2026-08-16T18:00:37Z
+updatedDate: 2026-09-21T08:00:00Z
 author: "节点GO 编辑部"
 category: "横向对比"
 tags: ["横向对比", "快狸", "科学上网"]

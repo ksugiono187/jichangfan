@@ -2,6 +2,7 @@
 title: "微风网络 Breezenet 晚高峰测速报告 | 深度测评"
 description: "还在为 微风网络 Breezenet 晚高峰测速报告 发愁？这篇保姆级攻略为您提供一步到位的解决方案。"
 pubDate: 2026-01-07T18:00:37Z
+updatedDate: 2026-09-21T08:00:00Z
 author: "节点GO 编辑部"
 category: "深度测评"
 tags: ["深度测评", "微风网络", "科学上网"]

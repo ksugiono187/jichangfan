@@ -2,6 +2,7 @@
 title: "星岛梦 IPLC与IEPL对比 - 新手必看"
 description: "想知道 星岛梦 IPLC与IEPL对比 到底怎么样？本文通过实测数据为您全面揭秘。"
 pubDate: 2026-08-25T18:00:37Z
+updatedDate: 2026-09-21T08:00:00Z
 author: "节点GO 编辑部"
 category: "横向对比"
 tags: ["横向对比", "星岛梦", "科学上网"]

@@ -2,6 +2,7 @@
 title: "速界 iOS小火箭设置 - 最新教程"
 description: "关于 iOS小火箭设置 的常见疑问解答。我们将以 速界 为例，教您如何正确配置与使用。"
 pubDate: 2026-04-15T18:00:37Z
+updatedDate: 2026-09-21T08:00:00Z
 author: "节点GO 编辑部"
 category: "新手教程"
 tags: ["新手教程", "速界", "科学上网"]

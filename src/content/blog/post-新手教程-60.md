@@ -2,6 +2,7 @@
 title: "Sogo云 手机端翻墙指南（附图文详解）"
 description: "还在为 Sogo云 手机端翻墙指南 发愁？这篇保姆级攻略为您提供一步到位的解决方案。"
 pubDate: 2026-03-05T18:00:37Z
+updatedDate: 2026-09-21T08:00:00Z
 author: "节点GO 编辑部"
 category: "新手教程"
 tags: ["新手教程", "Sogo云", "科学上网"]

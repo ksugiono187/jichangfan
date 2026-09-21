@@ -2,6 +2,7 @@
 title: "Windows客户端推荐：梯子云 与 光年梯 深度解析 (2026实测)"
 description: "Windows客户端推荐：梯子云 官方推荐的 与 光年梯 深度解析 指南，结合网友真实反馈，为您提供详尽的图文解析。"
 pubDate: 2025-09-23T18:00:37Z
+updatedDate: 2026-09-21T08:00:00Z
 author: "节点GO 编辑部"
 category: "新手教程"
 tags: ["新手教程", "梯子云", "科学上网"]

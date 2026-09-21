@@ -2,6 +2,7 @@
 title: "跨界云 BGP中转是什么意思"
 description: "为您整理了 跨界云 BGP中转是什么意思 的最新教程与评测，帮助新手快速避坑。"
 pubDate: 2026-01-31T18:00:37Z
+updatedDate: 2026-09-21T08:00:00Z
 author: "节点GO 编辑部"
 category: "机场FAQ"
 tags: ["机场FAQ", "跨界云", "科学上网"]

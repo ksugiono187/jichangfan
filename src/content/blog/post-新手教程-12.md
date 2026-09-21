@@ -2,6 +2,7 @@
 title: "Clash导入指南：光速云 与 快狸 KuaiLi 深度解析 [防坑指南]"
 description: "全网独家评测：Clash导入指南：光速云 的 与 快狸 KuaiLi 深度解析 体验究竟如何？结合晚高峰实测给您最真实的结论。"
 pubDate: 2026-01-21T18:00:37Z
+updatedDate: 2026-09-21T08:00:00Z
 author: "节点GO 编辑部"
 category: "新手教程"
 tags: ["新手教程", "光速云", "科学上网"]

@@ -2,6 +2,7 @@
 title: "全球云 什么是原生IP - 最新教程"
 description: "全球云 官方推荐的 什么是原生IP 指南，结合网友真实反馈，为您提供详尽的图文解析。"
 pubDate: 2026-06-26T18:00:38Z
+updatedDate: 2026-09-21T08:00:00Z
 author: "节点GO 编辑部"
 category: "机场FAQ"
 tags: ["机场FAQ", "全球云", "科学上网"]

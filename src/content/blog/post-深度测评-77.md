@@ -2,6 +2,7 @@
 title: "边缘节点 EdgeNova 性价比分析 [防坑指南]"
 description: "关于 EdgeNova 性价比分析 的常见疑问解答。我们将以 边缘节点 为例，教您如何正确配置与使用。"
 pubDate: 2026-01-03T18:00:37Z
+updatedDate: 2026-09-21T08:00:00Z
 author: "节点GO 编辑部"
 category: "深度测评"
 tags: ["深度测评", "边缘节点", "科学上网"]

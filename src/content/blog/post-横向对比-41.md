@@ -2,6 +2,7 @@
 title: "光年梯 IPLC与IEPL对比 - 新手必看"
 description: "还在为 光年梯 IPLC与IEPL对比 发愁？这篇保姆级攻略为您提供一步到位的解决方案。"
 pubDate: 2026-07-02T18:00:37Z
+updatedDate: 2026-09-21T08:00:00Z
 author: "节点GO 编辑部"
 category: "横向对比"
 tags: ["横向对比", "光年梯", "科学上网"]

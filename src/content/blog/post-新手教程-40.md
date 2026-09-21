@@ -2,6 +2,7 @@
 title: "OpenWrt软路由配置：Sogo云 与 速界 深度解析 - 最新教程"
 description: "一文看懂 OpenWrt软路由配置：Sogo云 与 速界 深度解析。不仅有图文教程，还有进阶的技巧分享，适合各阶段用户阅读。"
 pubDate: 2026-05-02T18:00:37Z
+updatedDate: 2026-09-21T08:00:00Z
 author: "节点GO 编辑部"
 category: "新手教程"
 tags: ["新手教程", "Sogo云", "科学上网"]

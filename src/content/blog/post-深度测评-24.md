@@ -2,6 +2,7 @@
 title: "微风网络 Breezenet 全节点速度评测 - 最新教程"
 description: "为您整理了 微风网络 Breezenet 全节点速度评测 的最新教程与评测，帮助新手快速避坑。"
 pubDate: 2026-06-28T18:00:37Z
+updatedDate: 2026-09-21T08:00:00Z
 author: "节点GO 编辑部"
 category: "深度测评"
 tags: ["深度测评", "微风网络", "科学上网"]

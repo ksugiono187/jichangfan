@@ -2,6 +2,7 @@
 title: "什么是原生IP：光速云 与 微风网络 Breezenet 深度解析 - 新手必看"
 description: "关于 与 微风网络 Breezenet 深度解析 的常见疑问解答。我们将以 什么是原生IP：光速云 为例，教您如何正确配置与使用。"
 pubDate: 2026-02-08T18:00:38Z
+updatedDate: 2026-09-21T08:00:00Z
 author: "节点GO 编辑部"
 category: "机场FAQ"
 tags: ["机场FAQ", "光速云", "科学上网"]

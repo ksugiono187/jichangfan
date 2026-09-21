@@ -2,6 +2,7 @@
 title: "如何选择合适的套餐：微风网络 Breezenet 与 快狸 KuaiLi 深度解析 [防坑指南]"
 description: "为您整理了 如何选择合适的套餐：微风网络 Breezenet 与 快狸 KuaiLi 深度解析 的最新教程与评测，帮助新手快速避坑。"
 pubDate: 2026-07-28T18:00:37Z
+updatedDate: 2026-09-21T08:00:00Z
 author: "节点GO 编辑部"
 category: "常见解答"
 tags: ["常见解答", "微风网络", "科学上网"]

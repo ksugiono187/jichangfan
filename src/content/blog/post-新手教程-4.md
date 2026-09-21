@@ -2,6 +2,7 @@
 title: "边缘节点 EdgeNova iOS小火箭设置 - 新手必看"
 description: "想知道 边缘节点 EdgeNova iOS小火箭设置 到底怎么样？本文通过实测数据为您全面揭秘。"
 pubDate: 2026-07-05T18:00:37Z
+updatedDate: 2026-09-21T08:00:00Z
 author: "节点GO 编辑部"
 category: "新手教程"
 tags: ["新手教程", "边缘节点", "科学上网"]

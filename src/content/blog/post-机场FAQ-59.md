@@ -2,6 +2,7 @@
 title: "Vless协议安全吗：微风网络 Breezenet 与 Firefly机场 深度解析 [防坑指南]"
 description: "深入解析 Vless协议安全吗：微风网络 在 Breezenet 与 Firefly机场 深度解析 方面的真实表现，提供客观的数据分析与选购参考。"
 pubDate: 2026-05-18T18:00:38Z
+updatedDate: 2026-09-21T08:00:00Z
 author: "节点GO 编辑部"
 category: "机场FAQ"
 tags: ["机场FAQ", "微风网络", "科学上网"]

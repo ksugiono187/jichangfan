@@ -2,6 +2,7 @@
 title: "边缘节点 EdgeNova 防跑路评估"
 description: "想知道 边缘节点 EdgeNova 防跑路评估 到底怎么样？本文通过实测数据为您全面揭秘。"
 pubDate: 2026-01-04T18:00:37Z
+updatedDate: 2026-09-21T08:00:00Z
 author: "节点GO 编辑部"
 category: "深度测评"
 tags: ["深度测评", "边缘节点", "科学上网"]

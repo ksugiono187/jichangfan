@@ -2,6 +2,7 @@
 title: "哪家最适合打游戏：二猫云 与 边缘节点 EdgeNova 深度解析 (2026实测)"
 description: "为您整理了 哪家最适合打游戏：二猫云 与 边缘节点 EdgeNova 深度解析 的最新教程与评测，帮助新手快速避坑。"
 pubDate: 2026-07-09T18:00:37Z
+updatedDate: 2026-09-21T08:00:00Z
 author: "节点GO 编辑部"
 category: "横向对比"
 tags: ["横向对比", "二猫云", "科学上网"]

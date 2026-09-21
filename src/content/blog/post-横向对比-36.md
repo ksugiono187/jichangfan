@@ -2,6 +2,7 @@
 title: "宇宙云 IPLC与IEPL对比"
 description: "针对近期用户关心的 IPLC与IEPL对比 问题，我们对 宇宙云 进行了长达一周的监控，得出以下结论。"
 pubDate: 2026-04-04T18:00:37Z
+updatedDate: 2026-09-21T08:00:00Z
 author: "节点GO 编辑部"
 category: "横向对比"
 tags: ["横向对比", "宇宙云", "科学上网"]

@@ -2,6 +2,7 @@
 title: "如何更换节点：边缘节点 EdgeNova 与 星岛梦 深度解析 (全网首发)"
 description: "关于 EdgeNova 与 星岛梦 深度解析 的常见疑问解答。我们将以 如何更换节点：边缘节点 为例，教您如何正确配置与使用。"
 pubDate: 2026-06-05T18:00:37Z
+updatedDate: 2026-09-21T08:00:00Z
 author: "节点GO 编辑部"
 category: "常见解答"
 tags: ["常见解答", "边缘节点", "科学上网"]
