@@ -1,11 +1,14 @@
 ---
+import { SITE } from '../data/site';
+
 interface Props {
   title: string;
   description: string;
+  keywords?: string;
   canonical?: string;
 }
-const { title, description, canonical } = Astro.props;
-const siteUrl = 'https://example.com';
+const { title, description, keywords, canonical } = Astro.props;
+const siteUrl = SITE.domain;
 const currentUrl = new URL(Astro.url.pathname, siteUrl).href;
 const finalCanonical = canonical || currentUrl;
 ---
@@ -14,6 +17,7 @@ const finalCanonical = canonical || currentUrl;
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>{title}</title>
 <meta name="description" content={description} />
+{keywords && <meta name="keywords" content={keywords} />}
 <link rel="canonical" href={finalCanonical} />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />

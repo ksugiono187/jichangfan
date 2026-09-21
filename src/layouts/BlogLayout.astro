@@ -9,8 +9,9 @@ interface Props {
   prevPost?: CollectionEntry<'blog'> | null;
 }
 const { post, nextPost, prevPost } = Astro.props;
+const keywords = post.data.tags ? post.data.tags.join(', ') : undefined;
 ---
-<BaseLayout title={post.data.title} description={post.data.description}>
+<BaseLayout title={post.data.title} description={post.data.description} keywords={keywords}>
   <div class="max-w-4xl mx-auto px-4 py-8">
     <Breadcrumb items={[{label: '博客', href: '/blog/'}, {label: post.data.title}]} />
     
