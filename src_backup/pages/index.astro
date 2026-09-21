@@ -1,0 +1,86 @@
+---
+import LandingLayout from '../layouts/LandingLayout.astro';
+import Hero from '../components/Hero.astro';
+import StatsStrip from '../components/StatsStrip.astro';
+import FeatureCard from '../components/FeatureCard.astro';
+import SectionTitle from '../components/SectionTitle.astro';
+import ComparisonTable from '../components/ComparisonTable.astro';
+import FAQ from '../components/FAQ.astro';
+import CTASection from '../components/CTASection.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+import TopicCluster from '../components/TopicCluster.astro';
+import BrandCard from '../components/BrandCard.astro';
+import { HOMEPAGE_DATA } from '../data/homepage';
+import { getCollection } from 'astro:content';
+
+const posts = await getCollection('blog');
+const recentPosts = posts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()).slice(0, 3);
+const topics = await getCollection('topics');
+const brands = await getCollection('brands');
+brands.sort((a, b) => (a.data.sortOrder || 999) - (b.data.sortOrder || 999));
+---
+<LandingLayout title="首页 - 机场推荐指南" description="专业的机场评测、教程与对比，帮您找到最适合的科学上网服务。">
+  <Hero {...HOMEPAGE_DATA.hero} />
+  <StatsStrip stats={HOMEPAGE_DATA.stats} />
+  
+  <section class="py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-4">
+      <SectionTitle title="核心服务与内容" subtitle="全方位的数字生活解决方案" />
+      <div class="grid md:grid-cols-3 gap-8">
+        {HOMEPAGE_DATA.features.map(f => <FeatureCard {...f} />)}
+      </div>
+    </div>
+  </section>
+
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-4">
+      <SectionTitle title="最新评测与教程" subtitle="真实测试，客观数据，详实图文" />
+      <div class="grid md:grid-cols-3 gap-8">
+        {recentPosts.map(post => <ArticleCard post={post} />)}
+      </div>
+      <div class="text-center mt-10">
+        <a href="/blog/" class="inline-flex items-center text-blue-600 font-semibold hover:text-blue-700">查看更多文章 <svg class="w-4 h-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-4">
+      <SectionTitle title="热门专题聚合" subtitle="系统化学习，一站式解决问题" />
+      <TopicCluster topics={topics} />
+    </div>
+  </section>
+
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-4">
+      <SectionTitle title="优质品牌库" subtitle="严格筛选，长期监控，放心选择" />
+      <div class="grid md:grid-cols-4 sm:grid-cols-2 gap-6">
+        {brands.slice(0, 4).map(brand => <BrandCard brand={brand} />)}
+      </div>
+    </div>
+  </section>
+
+  <section class="py-20 bg-white">
+    <div class="max-w-4xl mx-auto px-4">
+      <SectionTitle title="方案横向对比" subtitle="多维度数据对比，一目了然" />
+      <ComparisonTable />
+      <div class="text-center mt-8 text-sm text-gray-500">此表仅为示例，后续将补充真实产品对比</div>
+    </div>
+  </section>
+
+  <section class="py-16 max-w-4xl mx-auto px-4 prose prose-gray prose-a:text-blue-600">
+    <h2>关于机场评测与科学上网</h2>
+    <p>在这个信息高度互联的时代，获取全球资讯、访问流媒体服务成为了许多人的刚需。本站致力于提供客观、真实的评测内容，帮助用户在繁杂的市场中找到最适合自己的服务提供商。</p>
+    <h3>如何判断服务的优质程度？</h3>
+    <p>我们主要从节点覆盖率、晚高峰延迟、流媒体解锁支持（如 Netflix, Disney+）、价格以及客服响应速度等多个维度进行综合评估。</p>
+  </section>
+
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-4xl mx-auto px-4">
+      <SectionTitle title="常见问题 FAQ" subtitle="您关心的疑问，这里都有解答" />
+      <FAQ items={HOMEPAGE_DATA.faqs} />
+    </div>
+  </section>
+
+  <CTASection />
+</LandingLayout>

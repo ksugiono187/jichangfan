@@ -1,0 +1,50 @@
+---
+import SeoHead from '../components/SeoHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description: string;
+  canonical?: string;
+}
+const { title, description, canonical } = Astro.props;
+---
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <SeoHead title={title} description={description} canonical={canonical} />
+</head>
+<body class="bg-zinc-950 text-zinc-50 font-sans antialiased min-h-screen flex flex-col">
+  <Header />
+  <main class="flex-grow">
+    <slot />
+  </main>
+  <Footer />
+
+  <button id="back-to-top" class="fixed bottom-8 right-8 bg-amber-500 text-zinc-950 p-3 rounded-full shadow-[0_0_15px_rgba(245,158,11,0.3)] opacity-0 pointer-events-none transition-all duration-300 hover:bg-amber-400 hover:scale-110 z-50 flex items-center justify-center translate-y-4 border border-amber-300/50" aria-label="返回顶部">
+    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 15l7-7 7 7"></path></svg>
+  </button>
+  
+  <script>
+    const backToTopButton = document.getElementById('back-to-top');
+    
+    if (backToTopButton) {
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 500) {
+          backToTopButton.classList.remove('opacity-0', 'pointer-events-none', 'translate-y-4');
+          backToTopButton.classList.add('opacity-100', 'pointer-events-auto', 'translate-y-0');
+        } else {
+          backToTopButton.classList.add('opacity-0', 'pointer-events-none', 'translate-y-4');
+          backToTopButton.classList.remove('opacity-100', 'pointer-events-auto', 'translate-y-0');
+        }
+      });
+      
+      backToTopButton.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    }
+  </script>
+</body>
+</html>

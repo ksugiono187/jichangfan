@@ -1,0 +1,45 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+<BaseLayout title="联系我们" description="获取本站联系方式，进行商务合作或问题反馈。">
+  <div class="max-w-4xl mx-auto px-4 py-16">
+    <div class="text-center mb-16">
+      <h1 class="text-4xl font-bold text-zinc-50 tracking-tight mb-4">联系我们</h1>
+      <p class="text-lg text-zinc-400">无论是商务合作、内容指正还是技术交流，我们都期待听到您的声音</p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto">
+      
+      <!-- Email Card -->
+      <div class="bg-zinc-900/50 p-8 rounded-3xl border border-zinc-800 shadow-xl hover:border-amber-500/30 transition-colors flex flex-col items-center text-center group relative overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-b from-amber-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+        <div class="w-16 h-16 bg-zinc-800 rounded-2xl flex items-center justify-center mb-6 text-amber-500 group-hover:scale-110 transition-transform">
+          <svg class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+        </div>
+        <h3 class="text-xl font-bold text-zinc-50 mb-2">电子邮件</h3>
+        <p class="text-zinc-400 mb-6 text-sm">适合发送正式的合作邮件或需要附带附件的长文反馈。</p>
+        <a href="mailto:ksugiono187@gmail.com" class="inline-block bg-zinc-800 hover:bg-zinc-700 text-zinc-50 px-6 py-3 rounded-xl font-medium transition-colors w-full">
+          ksugiono187@gmail.com
+        </a>
+      </div>
+
+      <!-- Telegram Card -->
+      <div class="bg-zinc-900/50 p-8 rounded-3xl border border-zinc-800 shadow-xl hover:border-[#2481cc]/30 transition-colors flex flex-col items-center text-center group relative overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-b from-[#2481cc]/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+        <div class="w-16 h-16 bg-zinc-800 rounded-2xl flex items-center justify-center mb-6 text-[#2481cc] group-hover:scale-110 transition-transform">
+          <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z"/></svg>
+        </div>
+        <h3 class="text-xl font-bold text-zinc-50 mb-2">Telegram</h3>
+        <p class="text-zinc-400 mb-6 text-sm">适合快速的即时通讯交流，我们通常会在24小时内回复。</p>
+        <a href="https://t.me/Hy_0027" target="_blank" rel="noopener noreferrer" class="inline-block bg-[#2481cc] hover:bg-[#1d6ba8] text-white px-6 py-3 rounded-xl font-medium transition-colors w-full">
+          @Hy_0027
+        </a>
+      </div>
+
+    </div>
+    
+    <div class="max-w-3xl mx-auto mt-16 text-center text-zinc-500 text-sm">
+      <p>注：工作时间为周一至周五 9:00 - 18:00 (UTC+8)，非工作时间的留言可能会延迟处理，敬请谅解。</p>
+    </div>
+  </div>
+</BaseLayout>

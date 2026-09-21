@@ -1,0 +1,67 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  const brands = await getCollection('brands');
+  // Sort brands to maintain consistent ordering
+  brands.sort((a, b) => (a.data.sortOrder || 999) - (b.data.sortOrder || 999));
+  
+  return brands.map((brand, index) => {
+    const nextBrand = brands[(index + 1) % brands.length];
+    const prevBrand = index === 0 ? brands[brands.length - 1] : brands[index - 1];
+    
+    return {
+      params: { slug: brand.id },
+      props: { brand, nextBrand, prevBrand },
+    };
+  });
+}
+
+const { brand, nextBrand, prevBrand } = Astro.props;
+const { Content } = await render(brand);
+---
+<BaseLayout title={`${brand.data.name} 详情 | 机场翻`} description={brand.data.description}>
+  <div class="max-w-4xl mx-auto px-4 py-16">
+    <!-- Header Card -->
+    <div class="bg-zinc-900 border border-zinc-800 rounded-2xl p-8 mb-6 shadow-lg relative overflow-hidden">
+      <div class="absolute top-0 right-0 p-8 opacity-5 pointer-events-none">
+        <svg class="w-32 h-32" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2L2 22l10-3 10 3L12 2z"></path></svg>
+      </div>
+      <div class="relative z-10">
+        <h1 class="text-3xl font-extrabold mb-3 text-zinc-50">{brand.data.name}</h1>
+        <div class="flex items-center gap-3 mb-5">
+          <span class="text-xs font-bold bg-amber-500/10 text-amber-500 border border-amber-500/20 px-3 py-1 rounded-full uppercase tracking-wider">{brand.data.category}</span>
+          {brand.data.tags && brand.data.tags.map((tag: string) => (
+             <span class="text-xs text-zinc-400 bg-zinc-800 px-2 py-1 rounded-md">{tag}</span>
+          ))}
+        </div>
+        <p class="text-zinc-400 leading-relaxed max-w-2xl">{brand.data.description}</p>
+        <div class="mt-8 flex gap-4">
+          <a href={`/go/${brand.id}`} target="_blank" rel="nofollow noopener" class="inline-flex items-center justify-center bg-amber-500 text-zinc-950 px-8 py-3 rounded-xl font-bold hover:bg-amber-400 transition-all shadow-[0_0_15px_rgba(245,158,11,0.2)]">
+            访问官网
+            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation between brands -->
+    <div class="flex justify-between items-center mb-6 px-2 gap-4">
+      <a href={`/brands/${prevBrand.id}`} class="text-sm bg-zinc-800/80 text-zinc-200 hover:bg-amber-500 hover:text-zinc-950 hover:border-amber-500 px-5 py-2.5 rounded-full flex items-center transition-all font-medium border border-zinc-700/50 shadow-sm group">
+        <svg class="w-4 h-4 mr-1.5 transform group-hover:-translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+        <span class="hidden sm:inline">上一家：</span><span class="sm:hidden">上一家</span><span class="hidden sm:inline">{prevBrand.data.name}</span>
+      </a>
+      
+      <a href={`/brands/${nextBrand.id}`} class="text-sm bg-zinc-800/80 text-zinc-200 hover:bg-amber-500 hover:text-zinc-950 hover:border-amber-500 px-5 py-2.5 rounded-full flex items-center transition-all font-medium border border-zinc-700/50 shadow-sm group">
+        <span class="hidden sm:inline">下一家：</span><span class="sm:hidden">下一家</span><span class="hidden sm:inline">{nextBrand.data.name}</span>
+        <svg class="w-4 h-4 ml-1.5 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+      </a>
+    </div>
+
+    <!-- Content -->
+    <div class="prose prose-invert prose-amber max-w-none bg-zinc-900 p-8 sm:p-10 rounded-3xl border border-zinc-800 shadow-xl">
+      <Content />
+    </div>
+  </div>
+</BaseLayout>

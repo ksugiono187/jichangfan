@@ -1,0 +1,122 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const allAirportDocs = await getCollection('airport');
+
+// Helper to group docs by folder
+const groups = {
+  main: allAirportDocs.filter(doc => !doc.id.includes('/')).sort((a, b) => (a.data.order || 0) - (b.data.order || 0)),
+  clash: allAirportDocs.filter(doc => doc.id.startsWith('clash/')).sort((a, b) => (a.data.order || 0) - (b.data.order || 0)),
+  singbox: allAirportDocs.filter(doc => doc.id.startsWith('sing-box/')).sort((a, b) => (a.data.order || 0) - (b.data.order || 0)),
+  shadowrocket: allAirportDocs.filter(doc => doc.id.startsWith('shadowrocket/')).sort((a, b) => (a.data.order || 0) - (b.data.order || 0)),
+  faq: allAirportDocs.filter(doc => doc.id.startsWith('faq/')).sort((a, b) => (a.data.order || 0) - (b.data.order || 0)),
+};
+---
+<BaseLayout title="机场推荐与选择指南 | 系统教程" description="从零开始认识机场，深度解析各平台客户端的配置教程。">
+  <div class="max-w-4xl mx-auto px-4 py-16">
+    <div class="text-center mb-16">
+      <h1 class="text-4xl md:text-5xl font-extrabold text-zinc-50 mb-6 tracking-tight">机场入门与高级教程指南</h1>
+      <p class="text-xl text-zinc-400 max-w-2xl mx-auto">系统化梳理从扫盲、选购到多平台客户端配置的全套知识体系。</p>
+    </div>
+
+    <div class="space-y-12">
+      <!-- Main Core Section -->
+      <section class="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 sm:p-10 shadow-xl relative overflow-hidden">
+        <div class="absolute top-0 right-0 p-8 opacity-5 pointer-events-none">
+          <svg class="w-32 h-32" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2L2 22l10-3 10 3L12 2z"></path></svg>
+        </div>
+        <h2 class="text-2xl font-bold text-amber-500 mb-6 flex items-center"><svg class="w-6 h-6 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg> 核心扫盲指南</h2>
+        <ul class="space-y-3">
+          {groups.main.map(doc => (
+            <li>
+              <a href={`/airport/${doc.id}`} class="block p-4 rounded-xl hover:bg-zinc-800/80 border border-transparent hover:border-zinc-700 transition-all group">
+                <span class="text-lg font-medium text-zinc-200 group-hover:text-amber-500">{doc.data.title}</span>
+                <span class="block text-sm text-zinc-500 mt-1">{doc.data.description}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+
+      <!-- Grid for clients -->
+      <div class="grid md:grid-cols-2 gap-8">
+        <section class="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 shadow-lg">
+          <h2 class="text-xl font-bold text-zinc-50 mb-6 flex items-center border-b border-zinc-800 pb-4">
+            <span class="bg-blue-500/20 text-blue-500 p-2 rounded-lg mr-3">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17V7m0 10a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 012-2h2a2 2 0 012 2m0 10a2 2 0 002 2h2a2 2 0 002-2M9 7a2 2 0 012-2h2a2 2 0 012 2m0 10V7m0 10a2 2 0 002 2h2a2 2 0 002-2V7a2 2 0 00-2-2h-2a2 2 0 00-2 2"/></svg>
+            </span>
+            Clash 专题
+          </h2>
+          <ul class="space-y-2">
+            {groups.clash.map(doc => (
+              <li>
+                <a href={`/airport/${doc.id}`} class="flex items-center p-3 rounded-lg hover:bg-zinc-800 transition-colors text-zinc-300 hover:text-amber-500">
+                  <svg class="w-4 h-4 mr-3 text-zinc-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+                  {doc.data.title}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+
+        <section class="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 shadow-lg">
+          <h2 class="text-xl font-bold text-zinc-50 mb-6 flex items-center border-b border-zinc-800 pb-4">
+            <span class="bg-green-500/20 text-green-500 p-2 rounded-lg mr-3">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+            </span>
+            sing-box 专题
+          </h2>
+          <ul class="space-y-2">
+            {groups.singbox.map(doc => (
+              <li>
+                <a href={`/airport/${doc.id}`} class="flex items-center p-3 rounded-lg hover:bg-zinc-800 transition-colors text-zinc-300 hover:text-amber-500">
+                  <svg class="w-4 h-4 mr-3 text-zinc-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+                  {doc.data.title}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+
+        <section class="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 shadow-lg">
+          <h2 class="text-xl font-bold text-zinc-50 mb-6 flex items-center border-b border-zinc-800 pb-4">
+            <span class="bg-purple-500/20 text-purple-500 p-2 rounded-lg mr-3">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"/></svg>
+            </span>
+            Shadowrocket 专题
+          </h2>
+          <ul class="space-y-2">
+            {groups.shadowrocket.map(doc => (
+              <li>
+                <a href={`/airport/${doc.id}`} class="flex items-center p-3 rounded-lg hover:bg-zinc-800 transition-colors text-zinc-300 hover:text-amber-500">
+                  <svg class="w-4 h-4 mr-3 text-zinc-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+                  {doc.data.title}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+
+        <section class="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 shadow-lg">
+          <h2 class="text-xl font-bold text-zinc-50 mb-6 flex items-center border-b border-zinc-800 pb-4">
+            <span class="bg-red-500/20 text-red-500 p-2 rounded-lg mr-3">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            </span>
+            常见问题解答
+          </h2>
+          <ul class="space-y-2">
+            {groups.faq.map(doc => (
+              <li>
+                <a href={`/airport/${doc.id}`} class="flex items-center p-3 rounded-lg hover:bg-zinc-800 transition-colors text-zinc-300 hover:text-amber-500">
+                  <svg class="w-4 h-4 mr-3 text-zinc-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+                  {doc.data.title}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      </div>
+    </div>
+  </div>
+</BaseLayout>

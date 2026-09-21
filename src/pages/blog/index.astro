@@ -1,0 +1,27 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import SectionTitle from '../../components/SectionTitle.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import { getCollection } from 'astro:content';
+
+const posts = await getCollection('blog');
+const sortedPosts = posts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+---
+<BaseLayout title="博客文章 - 最新评测与教程 | 机场翻" description="浏览我们最新的机场评测、使用教程和行业资讯。">
+  <div class="max-w-6xl mx-auto px-4 py-16">
+    <SectionTitle title="博客文章" subtitle="最新评测、使用教程与行业资讯" />
+    
+    <!-- Categories Navigation -->
+    <div class="flex flex-wrap justify-center gap-4 mb-12">
+      <a href="/category/新手教程" class="px-6 py-2 rounded-full bg-zinc-900 border border-zinc-800 text-zinc-300 hover:text-amber-500 hover:border-amber-500 transition-all font-medium">新手教程</a>
+      <a href="/category/深度测评" class="px-6 py-2 rounded-full bg-zinc-900 border border-zinc-800 text-zinc-300 hover:text-amber-500 hover:border-amber-500 transition-all font-medium">深度测评</a>
+      <a href="/category/横向对比" class="px-6 py-2 rounded-full bg-zinc-900 border border-zinc-800 text-zinc-300 hover:text-amber-500 hover:border-amber-500 transition-all font-medium">横向对比</a>
+      <a href="/category/常见解答" class="px-6 py-2 rounded-full bg-zinc-900 border border-zinc-800 text-zinc-300 hover:text-amber-500 hover:border-amber-500 transition-all font-medium">常见解答</a>
+      <a href="/category/机场FAQ" class="px-6 py-2 rounded-full bg-zinc-900 border border-zinc-800 text-zinc-300 hover:text-amber-500 hover:border-amber-500 transition-all font-medium">机场FAQ</a>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-8">
+      {sortedPosts.map(post => <ArticleCard post={post} />)}
+    </div>
+  </div>
+</BaseLayout>

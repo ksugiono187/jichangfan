@@ -1,0 +1,39 @@
+---
+import { getCollection, render } from 'astro:content';
+import BlogLayout from '../../layouts/BlogLayout.astro';
+
+export async function getStaticPaths() {
+  const allPosts = await getCollection('blog');
+  
+  return allPosts.map(post => {
+    // 找出同分类下的所有文章
+    const categoryPosts = allPosts.filter(p => p.data.category === post.data.category);
+    
+    // 按文件名的序号进行升序排序 (例如: post-新手教程-1 -> post-新手教程-2)
+    categoryPosts.sort((a, b) => {
+       const getNum = (id: string) => {
+         const parts = id.split('-');
+         return parseInt(parts[parts.length - 1]) || 0;
+       };
+       return getNum(a.id) - getNum(b.id);
+    });
+    
+    const index = categoryPosts.findIndex(p => p.id === post.id);
+    
+    // 下一篇是序号更大的 (+1)，上一篇是序号更小的 (-1)
+    const nextPost = index < categoryPosts.length - 1 ? categoryPosts[index + 1] : null;
+    const prevPost = index > 0 ? categoryPosts[index - 1] : null;
+    
+    return {
+      params: { slug: post.id },
+      props: { post, nextPost, prevPost },
+    };
+  });
+}
+
+const { post, nextPost, prevPost } = Astro.props;
+const { Content } = await render(post);
+---
+<BlogLayout post={post} nextPost={nextPost} prevPost={prevPost}>
+  <Content />
+</BlogLayout>

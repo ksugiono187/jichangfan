@@ -1,0 +1,16 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import BrandCard from '../../components/BrandCard.astro';
+import { getCollection } from 'astro:content';
+
+const brands = await getCollection('brands');
+brands.sort((a, b) => (a.data.sortOrder || 999) - (b.data.sortOrder || 999));
+---
+<BaseLayout title="品牌库 - 优质服务商名录" description="收录经过筛选的优质服务提供商，提供详细信息。">
+  <div class="max-w-6xl mx-auto px-4 py-16">
+    <h1 class="text-3xl font-bold mb-8 text-center">优质品牌库</h1>
+    <div class="grid md:grid-cols-4 sm:grid-cols-2 gap-6">
+      {brands.map(brand => <BrandCard brand={brand} />)}
+    </div>
+  </div>
+</BaseLayout>

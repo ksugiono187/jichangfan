@@ -1,0 +1,33 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ComparisonTable from '../../components/ComparisonTable.astro';
+import FAQ from '../../components/FAQ.astro';
+---
+<BaseLayout title="方案对比 - 多维度横向评测" description="全网优质服务多维度对比，助您快速选择。">
+  <div class="max-w-5xl mx-auto px-4 py-16">
+    <div class="text-center mb-12">
+      <h1 class="text-4xl font-bold mb-4">服务方案对比</h1>
+      <p class="text-lg text-zinc-400">从价格、速度、解锁能力等多维度进行客观对比</p>
+    </div>
+    
+    <div class="mb-16">
+      <ComparisonTable />
+    </div>
+    
+    <div class="prose prose-invert prose-amber max-w-none mb-16">
+      <h2>选择建议</h2>
+      <p>在选择服务时，请重点考虑以下几点：</p>
+      <ul>
+        <li><strong>预算：</strong> 根据您的经济能力选择合适的月付/年付套餐。</li>
+        <li><strong>用途：</strong> 如果主要是追剧，请选择流媒体解锁能力强的；如果是游戏，请选择带专线低延迟的。</li>
+        <li><strong>网络环境：</strong> 不同的服务在不同宽带（电信、联通、移动）下的表现可能不同，建议先购买体验套餐测试。</li>
+      </ul>
+    </div>
+    
+    <h2 class="text-2xl font-bold mb-6 text-center">对比相关 FAQ</h2>
+    <FAQ items={[
+      { q: '对比表格多久更新一次？', a: '我们每月会定期复测各家服务，并更新对比表格的数据。' },
+      { q: '数据绝对准确吗？', a: '测试数据受时间、网络波动影响，仅代表测试当时的表现，供参考。' }
+    ]} />
+  </div>
+</BaseLayout>

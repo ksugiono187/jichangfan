@@ -1,0 +1,39 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  const airportDocs = await getCollection('airport');
+  return airportDocs.map(doc => ({
+    params: { slug: doc.id },
+    props: { doc },
+  }));
+}
+
+const { doc } = Astro.props;
+const { Content } = await render(doc);
+---
+<BaseLayout title={`${doc.data.title} | 机场指南`} description={doc.data.description}>
+  <div class="max-w-4xl mx-auto px-4 py-16">
+    <!-- Breadcrumb back to /airport/ -->
+    <nav class="mb-8 flex text-zinc-400 text-sm">
+      <a href="/airport/" class="hover:text-amber-500 transition-colors">机场指南目录</a>
+      <span class="mx-3">/</span>
+      <span class="text-zinc-50">{doc.data.title}</span>
+    </nav>
+    
+    <article class="prose prose-lg prose-invert prose-amber max-w-none bg-zinc-900 p-8 sm:p-12 rounded-3xl border border-zinc-800 shadow-xl mb-16 prose-headings:font-bold prose-headings:tracking-tight prose-a:text-amber-500 prose-table:w-full prose-th:bg-zinc-800/50 prose-th:p-4 prose-th:text-left prose-td:p-4 prose-tr:border-b prose-tr:border-zinc-800">
+      <h1 class="text-4xl font-extrabold text-zinc-50 mb-6">{doc.data.title}</h1>
+      <p class="text-xl text-zinc-400 mb-10 pb-10 border-b border-zinc-800">{doc.data.description}</p>
+      
+      <Content />
+    </article>
+    
+    <div class="text-center mt-12">
+      <a href="/airport/" class="inline-flex items-center text-amber-500 hover:text-amber-400 bg-amber-500/10 px-6 py-3 rounded-xl border border-amber-500/20 transition-colors">
+        <svg class="w-5 h-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/></svg>
+        返回指南目录
+      </a>
+    </div>
+  </div>
+</BaseLayout>

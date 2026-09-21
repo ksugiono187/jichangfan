@@ -1,0 +1,37 @@
+---
+import { getCollection } from 'astro:content';
+
+const allBrands = await getCollection('brands');
+// Sort by sortOrder if available, otherwise by name
+const sortedBrands = allBrands.sort((a, b) => {
+  const orderA = a.data.sortOrder ?? 999;
+  const orderB = b.data.sortOrder ?? 999;
+  return orderA - orderB;
+});
+---
+<div class="overflow-x-auto rounded-xl border border-zinc-800 shadow-sm">
+  <table class="w-full text-left border-collapse bg-zinc-900">
+    <thead>
+      <tr class="bg-zinc-950 border-b border-zinc-800">
+        <th class="p-4 font-semibold text-zinc-50 whitespace-nowrap">服务名称</th>
+        <th class="p-4 font-semibold text-zinc-50 whitespace-nowrap">月付价格</th>
+        <th class="p-4 font-semibold text-zinc-50 whitespace-nowrap">流媒体解锁</th>
+        <th class="p-4 font-semibold text-zinc-50 whitespace-nowrap">节点数量</th>
+        <th class="p-4 font-semibold text-zinc-50 text-center whitespace-nowrap">操作</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-zinc-800">
+      {sortedBrands.map(brand => (
+        <tr class="hover:bg-zinc-800/50 transition-colors">
+          <td class="p-4 font-medium text-zinc-50">{brand.data.name}</td>
+          <td class="p-4 text-zinc-400">{brand.data.price || '查看详情'}</td>
+          <td class="p-4 text-zinc-400 flex items-center"><svg class="w-4 h-4 text-green-500 mr-1.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg> <span class="truncate max-w-[200px] block" title={brand.data.streaming || '流媒体解锁'}>{brand.data.streaming || '流媒体解锁'}</span></td>
+          <td class="p-4 text-zinc-400">{brand.data.nodes || '100+'}</td>
+          <td class="p-4 text-center">
+            <a href={`/brands/${brand.id}`} class="inline-block bg-amber-500/10 text-amber-500 hover:bg-amber-500 hover:text-zinc-950 px-4 py-1.5 rounded-lg text-sm font-medium transition-colors">评测</a>
+          </td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,29 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+<BaseLayout title="页面未找到 - 404" description="很抱歉，您访问的页面不存在。">
+  <div class="min-h-[60vh] flex flex-col items-center justify-center px-4 text-center">
+    <div class="relative mb-8">
+      <div class="absolute inset-0 bg-amber-500/20 blur-[50px] rounded-full"></div>
+      <h1 class="text-8xl md:text-9xl font-black text-transparent bg-clip-text bg-gradient-to-br from-amber-400 to-amber-600 relative z-10">
+        404
+      </h1>
+    </div>
+    
+    <h2 class="text-3xl font-bold text-zinc-50 mb-4">很抱歉，航班似乎迷路了</h2>
+    <p class="text-xl text-zinc-400 max-w-lg mx-auto mb-10">
+      您访问的页面可能已经被删除、更名，或者您输入了错误的网址。
+    </p>
+    
+    <div class="flex flex-col sm:flex-row gap-4">
+      <a href="/" class="inline-flex items-center justify-center bg-amber-500 hover:bg-amber-600 text-zinc-950 px-8 py-4 rounded-xl font-bold transition-all hover:scale-105 shadow-lg shadow-amber-500/20">
+        <svg class="w-5 h-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
+        返回首页
+      </a>
+      <a href="/topics/beginner" class="inline-flex items-center justify-center bg-zinc-800 hover:bg-zinc-700 text-zinc-50 px-8 py-4 rounded-xl font-bold transition-all shadow-lg border border-zinc-700">
+        <svg class="w-5 h-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
+        看新手教程
+      </a>
+    </div>
+  </div>
+</BaseLayout>

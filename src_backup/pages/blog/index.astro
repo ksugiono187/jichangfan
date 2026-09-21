@@ -1,0 +1,17 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import SectionTitle from '../../components/SectionTitle.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import { getCollection } from 'astro:content';
+
+const posts = await getCollection('blog');
+const sortedPosts = posts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+---
+<BaseLayout title="博客文章 - 最新评测与教程" description="浏览我们最新的机场评测、使用教程和行业资讯。">
+  <div class="max-w-6xl mx-auto px-4 py-16">
+    <SectionTitle title="博客文章" subtitle="最新评测、使用教程与行业资讯" />
+    <div class="grid md:grid-cols-3 gap-8">
+      {sortedPosts.map(post => <ArticleCard post={post} />)}
+    </div>
+  </div>
+</BaseLayout>

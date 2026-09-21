@@ -1,0 +1,83 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+<BaseLayout title="关于我们 | 机场翻" description="了解机场翻的创立初衷、核心价值观以及我们如何为您提供最客观的数字网络服务评测。">
+  <!-- Hero Section -->
+  <div class="relative py-20 px-4 mb-12 overflow-hidden border-b border-zinc-800">
+    <div class="absolute inset-0 bg-zinc-900/50"></div>
+    <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_right,_var(--tw-gradient-stops))] from-amber-500/10 via-transparent to-transparent"></div>
+    <div class="relative max-w-4xl mx-auto text-center">
+      <h1 class="text-4xl md:text-5xl font-bold text-zinc-50 tracking-tight mb-6">做全网最真实、最硬核的<br/><span class="text-amber-500">网络服务评测基准</span></h1>
+      <p class="text-xl text-zinc-400 leading-relaxed max-w-2xl mx-auto">
+        在这个信息差极度不对称的行业里，我们致力于用数据说话，用真金白银的实测打破行业黑盒，为您在纷繁复杂的市场中拨云见日。
+      </p>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="max-w-4xl mx-auto px-4 pb-20">
+    
+    <!-- 创立初衷 -->
+    <div class="mb-16">
+      <h2 class="text-3xl font-bold text-zinc-50 mb-6 flex items-center">
+        <span class="w-8 h-1 bg-amber-500 mr-4 rounded-full"></span>
+        创立初衷
+      </h2>
+      <div class="prose prose-lg prose-invert prose-amber max-w-none text-zinc-300">
+        <p>我们曾与您一样，在寻找优质网络服务的道路上踩过无数坑。面对铺天盖地的软文推广、虚假测速图、以及服务商跑路后的求告无门，我们深切地感受到：<strong>这个行业太缺乏一个客观、中立且具备技术深度的第三方评测平台了。</strong></p>
+        <p>因此，「机场翻」应运而生。我们的核心目标非常纯粹：<strong>自费购买、长期监控、深度解剖</strong>。我们将每一个服务商剥茧抽丝，把最真实的延迟、带宽冗余、流媒体解锁状态以及技术架构赤裸裸地展现在您面前。</p>
+      </div>
+    </div>
+
+    <!-- 我们的标准 -->
+    <div class="mb-16">
+      <h2 class="text-3xl font-bold text-zinc-50 mb-8 flex items-center">
+        <span class="w-8 h-1 bg-amber-500 mr-4 rounded-full"></span>
+        我们的评测标准
+      </h2>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="bg-zinc-900/80 p-8 rounded-3xl border border-zinc-800 hover:border-amber-500/30 transition-colors">
+          <div class="w-12 h-12 bg-amber-500/10 rounded-2xl flex items-center justify-center mb-6 text-amber-500">
+            <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          </div>
+          <h3 class="text-xl font-bold text-zinc-50 mb-3">100% 独立且中立</h3>
+          <p class="text-zinc-400 leading-relaxed">绝不接受任何形式的“充值”修改评测结果。所有参测产品均由我们自费匿名购买，确保我们的测试环境与您的实际使用体验完全一致。</p>
+        </div>
+
+        <div class="bg-zinc-900/80 p-8 rounded-3xl border border-zinc-800 hover:border-amber-500/30 transition-colors">
+          <div class="w-12 h-12 bg-amber-500/10 rounded-2xl flex items-center justify-center mb-6 text-amber-500">
+            <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
+          </div>
+          <h3 class="text-xl font-bold text-zinc-50 mb-3">多维数据量化</h3>
+          <p class="text-zinc-400 leading-relaxed">抛弃主观臆断，采用 24x7 自动化脚本监控。从晚高峰丢包率、单线程测速、到跨区域流媒体解锁，一切以真实图表和量化数据为准。</p>
+        </div>
+
+        <div class="bg-zinc-900/80 p-8 rounded-3xl border border-zinc-800 hover:border-amber-500/30 transition-colors">
+          <div class="w-12 h-12 bg-amber-500/10 rounded-2xl flex items-center justify-center mb-6 text-amber-500">
+            <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" /></svg>
+          </div>
+          <h3 class="text-xl font-bold text-zinc-50 mb-3">硬核技术科普</h3>
+          <p class="text-zinc-400 leading-relaxed">除了“哪家快”，我们更在乎“为什么快”。深入浅出地拆解专线原理、加密协议优劣，授人以鱼更授人以渔，助您成为真正的网络极客。</p>
+        </div>
+
+        <div class="bg-zinc-900/80 p-8 rounded-3xl border border-zinc-800 hover:border-amber-500/30 transition-colors">
+          <div class="w-12 h-12 bg-amber-500/10 rounded-2xl flex items-center justify-center mb-6 text-amber-500">
+            <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" /></svg>
+          </div>
+          <h3 class="text-xl font-bold text-zinc-50 mb-3">社区生态闭环</h3>
+          <p class="text-zinc-400 leading-relaxed">建立高门槛的读者交流圈，过滤无意义的水军与广告。与行业资深玩家一起交流，第一时间获取跑路预警与优质车队发车信息。</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 承诺 -->
+    <div class="bg-amber-500/10 border border-amber-500/20 p-8 sm:p-10 rounded-3xl">
+      <h2 class="text-2xl font-bold text-amber-500 mb-4">我们的承诺</h2>
+      <p class="text-zinc-300 leading-relaxed mb-0">
+        网络环境日新月异，曾经的王者可能随时跌落神坛。我们不追求短期流量，只做经得起时间检验的内容。如果您在这里避开了一个坑，或者找到了一个让您满意的网络服务，那便是「机场翻」最大的价值所在。
+      </p>
+    </div>
+    
+  </div>
+</BaseLayout>

@@ -1,0 +1,22 @@
+---
+interface Props {
+  title: string;
+  description: string;
+  canonical?: string;
+}
+const { title, description, canonical } = Astro.props;
+const siteUrl = 'https://example.com';
+const currentUrl = new URL(Astro.url.pathname, siteUrl).href;
+const finalCanonical = canonical || currentUrl;
+---
+<meta charset="utf-8" />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>{title}</title>
+<meta name="description" content={description} />
+<link rel="canonical" href={finalCanonical} />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:type" content="website" />
+<meta property="og:url" content={finalCanonical} />
+<meta name="robots" content="index, follow" />
