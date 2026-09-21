@@ -1,8 +1,28 @@
 ---
-title: "Shadowrocket 小火箭使用指南"
-description: "iOS 苹果设备必备神器！为您提供 Shadowrocket 下载账号获取、节点添加、订阅更新及高级路由规则配置详解。"
-featured: true
-updatedDate: 2026-09-21
+title: "Shadowrocket 小火箭专区"
+description: "iOS 端最强代理神器 Shadowrocket 的全方位使用教程，涵盖隐藏设置、去广告模块及耗电优化。"
+order: 3
 ---
 
-俗称“小火箭”的 Shadowrocket 是 iPhone 和 iPad 上最知名也是最好用的科学上网客户端。本专题教您如何获取美区 Apple ID，以及如何将购买的机场订阅一键导入到手机中，随时随地畅享全球网络。
+欢迎来到 **Shadowrocket（小火箭）深度专区**。作为 iOS 生态中最老牌、最稳定的网络工具，Shadowrocket 凭借极简的 UI 和强悍的规则引擎赢得了无数用户的青睐。本专题将带您解锁小火箭的“封印”能力。
+
+## 你将在这里学到什么？
+
+除了最基础的扫码添加节点，我们将向您展示：
+
+- **去广告模块配置**：如何利用 Rewrite 模块，实现网页去广告、视频跳过等高级注入操作。
+- **路由策略进阶**：全局路由中 Proxy、Config、Direct 模式到底该怎么配合使用。
+- **抓包与流量分析**：如何使用小火箭内置的 HTTPS 解密功能进行移动端抓包调试。
+- **续航与保活调优**：如何解决长时间挂载导致的 iOS 发热与电池过度消耗问题。
+
+## 推荐进阶路线
+
+掌握小火箭的高级功能，会让您的 iPhone 体验焕然一新：
+
+1. **基础接入**：[小火箭一键订阅与基础配置指南](/airport/shadowrocket/capture-tutorial)
+2. **耗电优化**：[小火箭发热与后台断流排查指南](/airport/shadowrocket/advanced-tips)
+3. **高阶玩法**：[使用 Rewrite 规则打造无广告的浏览体验](/blog)
+
+## 下一步学习
+
+小火箭虽然强大，但在多平台同步管理上略显吃力。如果您是“苹果全家桶”用户，建议您也可以了解基于 Surge 或 [sing-box 专题](/topics/sing-box) 的跨端解决方案，实现更一致的路由管理体验。
