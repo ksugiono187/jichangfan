@@ -4,10 +4,16 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 
 export async function getStaticPaths() {
   const airportDocs = await getCollection('airport');
-  return airportDocs.map(doc => ({
-    params: { slug: doc.id },
-    props: { doc },
-  }));
+  return airportDocs.map(doc => {
+    let slug = doc.id;
+    if (slug.endsWith('/index')) {
+      slug = slug.replace(/\/index$/, '');
+    }
+    return {
+      params: { slug },
+      props: { doc },
+    };
+  });
 }
 
 const { doc } = Astro.props;

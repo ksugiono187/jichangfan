@@ -12,6 +12,10 @@ const groups = {
   shadowrocket: allAirportDocs.filter(doc => doc.id.startsWith('shadowrocket/')).sort((a, b) => (a.data.order || 0) - (b.data.order || 0)),
   faq: allAirportDocs.filter(doc => doc.id.startsWith('faq/')).sort((a, b) => (a.data.order || 0) - (b.data.order || 0)),
 };
+
+const getHref = (id: string) => {
+  return `{getHref(doc.id)}${id.endsWith('/index') ? id.replace(/\/index$/, '') : id}`;
+};
 ---
 <BaseLayout title="机场推荐与选择指南 | 系统教程" description="从零开始认识机场，深度解析各平台客户端的配置教程。">
   <div class="max-w-4xl mx-auto px-4 py-16">
@@ -30,7 +34,7 @@ const groups = {
         <ul class="space-y-3">
           {groups.main.map(doc => (
             <li>
-              <a href={`/airport/${doc.id}`} class="block p-4 rounded-xl hover:bg-zinc-800/80 border border-transparent hover:border-zinc-700 transition-all group">
+              <a href={`{getHref(doc.id)}${doc.id}`} class="block p-4 rounded-xl hover:bg-zinc-800/80 border border-transparent hover:border-zinc-700 transition-all group">
                 <span class="text-lg font-medium text-zinc-200 group-hover:text-amber-500">{doc.data.title}</span>
                 <span class="block text-sm text-zinc-500 mt-1">{doc.data.description}</span>
               </a>
@@ -51,7 +55,7 @@ const groups = {
           <ul class="space-y-2">
             {groups.clash.map(doc => (
               <li>
-                <a href={`/airport/${doc.id}`} class="flex items-center p-3 rounded-lg hover:bg-zinc-800 transition-colors text-zinc-300 hover:text-amber-500">
+                <a href={`{getHref(doc.id)}${doc.id}`} class="flex items-center p-3 rounded-lg hover:bg-zinc-800 transition-colors text-zinc-300 hover:text-amber-500">
                   <svg class="w-4 h-4 mr-3 text-zinc-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                   {doc.data.title}
                 </a>
@@ -70,7 +74,7 @@ const groups = {
           <ul class="space-y-2">
             {groups.singbox.map(doc => (
               <li>
-                <a href={`/airport/${doc.id}`} class="flex items-center p-3 rounded-lg hover:bg-zinc-800 transition-colors text-zinc-300 hover:text-amber-500">
+                <a href={`{getHref(doc.id)}${doc.id}`} class="flex items-center p-3 rounded-lg hover:bg-zinc-800 transition-colors text-zinc-300 hover:text-amber-500">
                   <svg class="w-4 h-4 mr-3 text-zinc-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                   {doc.data.title}
                 </a>
@@ -89,7 +93,7 @@ const groups = {
           <ul class="space-y-2">
             {groups.shadowrocket.map(doc => (
               <li>
-                <a href={`/airport/${doc.id}`} class="flex items-center p-3 rounded-lg hover:bg-zinc-800 transition-colors text-zinc-300 hover:text-amber-500">
+                <a href={`{getHref(doc.id)}${doc.id}`} class="flex items-center p-3 rounded-lg hover:bg-zinc-800 transition-colors text-zinc-300 hover:text-amber-500">
                   <svg class="w-4 h-4 mr-3 text-zinc-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                   {doc.data.title}
                 </a>
@@ -108,7 +112,7 @@ const groups = {
           <ul class="space-y-2">
             {groups.faq.map(doc => (
               <li>
-                <a href={`/airport/${doc.id}`} class="flex items-center p-3 rounded-lg hover:bg-zinc-800 transition-colors text-zinc-300 hover:text-amber-500">
+                <a href={`{getHref(doc.id)}${doc.id}`} class="flex items-center p-3 rounded-lg hover:bg-zinc-800 transition-colors text-zinc-300 hover:text-amber-500">
                   <svg class="w-4 h-4 mr-3 text-zinc-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
                   {doc.data.title}
                 </a>
