@@ -3,7 +3,7 @@ title: "灵猫 订阅链接失效怎么处理"
 description: "关于 订阅链接失效怎么处理 的常见疑问解答。我们将以 灵猫 为例，教您如何正确配置与使用。"
 pubDate: 2026-03-29T18:00:37Z
 updatedDate: 2026-09-21T08:00:00Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "常见解答"
 tags: ["常见解答", "灵猫", "科学上网"]
 topics:

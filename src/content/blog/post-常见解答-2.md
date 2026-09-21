@@ -3,7 +3,7 @@ title: "Firefly机场 如何防止IP被封 [防坑指南]"
 description: "一文看懂 Firefly机场 如何防止IP被封。不仅有图文教程，还有进阶的技巧分享，适合各阶段用户阅读。"
 pubDate: 2026-06-15T18:00:37Z
 updatedDate: 2026-09-21T08:00:00Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "常见解答"
 tags: ["常见解答", "Firefly机场", "科学上网"]
 topics:

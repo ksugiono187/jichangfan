@@ -3,7 +3,7 @@ title: "延迟高怎么办：闪跃 FlashLeap 与 光速云 深度解析 - 新�
 description: "关于 FlashLeap 与 光速云 深度解析 的常见疑问解答。我们将以 延迟高怎么办：闪跃 为例，教您如何正确配置与使用。"
 pubDate: 2026-08-15T18:00:37Z
 updatedDate: 2026-09-21T08:00:00Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "常见解答"
 tags: ["常见解答", "闪跃", "科学上网"]
 topics:

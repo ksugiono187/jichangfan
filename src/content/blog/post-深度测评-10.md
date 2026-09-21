@@ -2,7 +2,7 @@
 title: "稳定性长期观察：Firefly机场 与 全球云 深度解析 | 深度测评"
 description: "本文针对 稳定性长期观察：Firefly机场 与 全球云 深度解析 进行了深度横向对比，带您了解其背后的技术原理与性价比。"
 pubDate: 2025-12-17T18:00:37Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "深度测评"
 tags: ["深度测评", "Firefly机场", "科学上网"]
 topics:

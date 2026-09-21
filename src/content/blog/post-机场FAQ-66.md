@@ -2,7 +2,7 @@
 title: "U1S1 机场跑路前有哪些征兆 - 新手必看"
 description: "为您整理了 U1S1 机场跑路前有哪些征兆 的最新教程与评测，帮助新手快速避坑。"
 pubDate: 2025-12-19T18:00:38Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "机场FAQ"
 tags: ["机场FAQ", "U1S1", "科学上网"]
 topics:

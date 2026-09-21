@@ -2,7 +2,7 @@
 title: "Firefly机场 手机端翻墙指南"
 description: "关于 手机端翻墙指南 的常见疑问解答。我们将以 Firefly机场 为例，教您如何正确配置与使用。"
 pubDate: 2025-09-19T18:00:37Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "新手教程"
 tags: ["新手教程", "Firefly机场", "科学上网"]
 topics:

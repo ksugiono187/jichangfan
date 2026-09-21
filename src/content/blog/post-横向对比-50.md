@@ -3,7 +3,7 @@ title: "IPLC与IEPL对比：二猫云 与 Firefly机场 深度解析"
 description: "想知道 IPLC与IEPL对比：二猫云 与 Firefly机场 深度解析 到底怎么样？本文通过实测数据为您全面揭秘。"
 pubDate: 2026-07-28T18:00:37Z
 updatedDate: 2026-09-21T08:00:00Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "横向对比"
 tags: ["横向对比", "二猫云", "科学上网"]
 topics:

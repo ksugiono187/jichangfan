@@ -3,7 +3,7 @@ title: "光速云 哪家最适合打游戏"
 description: "针对近期用户关心的 哪家最适合打游戏 问题，我们对 光速云 进行了长达一周的监控，得出以下结论。"
 pubDate: 2026-04-13T18:00:37Z
 updatedDate: 2026-09-21T08:00:00Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "横向对比"
 tags: ["横向对比", "光速云", "科学上网"]
 topics:

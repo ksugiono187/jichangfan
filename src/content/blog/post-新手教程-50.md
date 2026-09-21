@@ -2,7 +2,7 @@
 title: "Windows客户端推荐：Sogo云 与 光速云 深度解析 - 最新教程"
 description: "一文看懂 Windows客户端推荐：Sogo云 与 光速云 深度解析。不仅有图文教程，还有进阶的技巧分享，适合各阶段用户阅读。"
 pubDate: 2025-10-25T18:00:37Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "新手教程"
 tags: ["新手教程", "Sogo云", "科学上网"]
 topics:

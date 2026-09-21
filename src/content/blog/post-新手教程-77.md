@@ -3,7 +3,7 @@ title: "二猫云 如何配置"
 description: "二猫云 官方推荐的 如何配置 指南，结合网友真实反馈，为您提供详尽的图文解析。"
 pubDate: 2026-02-07T18:00:37Z
 updatedDate: 2026-09-21T08:00:00Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "新手教程"
 tags: ["新手教程", "二猫云", "科学上网"]
 topics:

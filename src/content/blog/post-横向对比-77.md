@@ -2,7 +2,7 @@
 title: "高端机场 vs 平价机场：飞猫云 与 边缘节点 EdgeNova 深度解析 - 新手必看"
 description: "想知道 高端机场 vs 平价机场：飞猫云 与 边缘节点 EdgeNova 深度解析 到底怎么样？本文通过实测数据为您全面揭秘。"
 pubDate: 2025-12-13T18:00:37Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "横向对比"
 tags: ["横向对比", "飞猫云", "科学上网"]
 topics:

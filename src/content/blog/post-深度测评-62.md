@@ -3,7 +3,7 @@ title: "速界 节点专线分析 - 新手必看"
 description: "为您整理了 速界 节点专线分析 的最新教程与评测，帮助新手快速避坑。"
 pubDate: 2026-07-28T18:00:37Z
 updatedDate: 2026-09-21T08:00:00Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "深度测评"
 tags: ["深度测评", "速界", "科学上网"]
 topics:

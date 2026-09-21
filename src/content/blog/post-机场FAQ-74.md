@@ -2,7 +2,7 @@
 title: "IEPL有什么区别：灵动云 与 极连云 深度解析 - 最新教程"
 description: "IEPL有什么区别：灵动云 官方推荐的 与 极连云 深度解析 指南，结合网友真实反馈，为您提供详尽的图文解析。"
 pubDate: 2025-11-14T18:00:38Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "机场FAQ"
 tags: ["机场FAQ", "灵动云", "科学上网"]
 topics:

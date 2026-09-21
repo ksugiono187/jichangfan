@@ -2,7 +2,7 @@
 title: "一翻云 Clash导入指南 [防坑指南]"
 description: "本文针对 一翻云 Clash导入指南 进行了深度横向对比，带您了解其背后的技术原理与性价比。"
 pubDate: 2025-09-21T18:00:37Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "新手教程"
 tags: ["新手教程", "一翻云", "科学上网"]
 topics:

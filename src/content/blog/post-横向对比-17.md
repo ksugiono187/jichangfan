@@ -3,7 +3,7 @@ title: "高端机场 vs 平价机场：闪跃 FlashLeap 与 极连云 深度解�
 description: "针对近期用户关心的 vs 平价机场：闪跃 FlashLeap 与 极连云 深度解析 问题，我们对 高端机场 进行了长达一周的监控，得出以下结论。"
 pubDate: 2026-03-14T18:00:37Z
 updatedDate: 2026-09-21T08:00:00Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "横向对比"
 tags: ["横向对比", "闪跃", "科学上网"]
 topics:

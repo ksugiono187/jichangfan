@@ -2,7 +2,7 @@
 title: "iOS小火箭设置：U1S1 与 光速云 深度解析"
 description: "本文针对 iOS小火箭设置：U1S1 与 光速云 深度解析 进行了深度横向对比，带您了解其背后的技术原理与性价比。"
 pubDate: 2025-11-09T18:00:37Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "新手教程"
 tags: ["新手教程", "U1S1", "科学上网"]
 topics:

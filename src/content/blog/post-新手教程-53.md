@@ -2,7 +2,7 @@
 title: "全球云 OpenWrt软路由配置（附图文详解）"
 description: "全网独家评测：全球云 的 OpenWrt软路由配置 体验究竟如何？结合晚高峰实测给您最真实的结论。"
 pubDate: 2025-12-19T18:00:37Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "新手教程"
 tags: ["新手教程", "全球云", "科学上网"]
 topics:

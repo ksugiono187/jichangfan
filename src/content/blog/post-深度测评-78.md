@@ -2,7 +2,7 @@
 title: "游戏延迟分析：一翻云 与 Firefly机场 深度解析 (全网首发)"
 description: "为您整理了 游戏延迟分析：一翻云 与 Firefly机场 深度解析 的最新教程与评测，帮助新手快速避坑。"
 pubDate: 2025-09-29T18:00:37Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "深度测评"
 tags: ["深度测评", "一翻云", "科学上网"]
 topics:

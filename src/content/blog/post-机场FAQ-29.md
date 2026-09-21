@@ -3,7 +3,7 @@ title: "Trojan和Shadowsocks哪个快：灵猫 与 V机场 深度解析"
 description: "全网独家评测：Trojan和Shadowsocks哪个快：灵猫 的 与 V机场 深度解析 体验究竟如何？结合晚高峰实测给您最真实的结论。"
 pubDate: 2026-06-14T18:00:37Z
 updatedDate: 2026-09-21T08:00:00Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "机场FAQ"
 tags: ["机场FAQ", "灵猫", "科学上网"]
 topics:

@@ -3,7 +3,7 @@ title: "IPLC与IEPL对比：唯兔云 与 快狸 KuaiLi 深度解析 | 深度测
 description: "一文看懂 IPLC与IEPL对比：唯兔云 与 快狸 KuaiLi 深度解析。不仅有图文教程，还有进阶的技巧分享，适合各阶段用户阅读。"
 pubDate: 2026-04-28T18:00:37Z
 updatedDate: 2026-09-21T08:00:00Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "横向对比"
 tags: ["横向对比", "唯兔云", "科学上网"]
 topics:

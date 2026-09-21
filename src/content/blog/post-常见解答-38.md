@@ -3,7 +3,7 @@ title: "闪跃 FlashLeap 延迟高怎么办"
 description: "针对近期用户关心的 FlashLeap 延迟高怎么办 问题，我们对 闪跃 进行了长达一周的监控，得出以下结论。"
 pubDate: 2026-06-16T18:00:37Z
 updatedDate: 2026-09-21T08:00:00Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "常见解答"
 tags: ["常见解答", "闪跃", "科学上网"]
 topics:

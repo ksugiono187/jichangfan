@@ -2,7 +2,7 @@
 title: "V机场 稳定性长期观察 - 新手必看"
 description: "V机场 官方推荐的 稳定性长期观察 指南，结合网友真实反馈，为您提供详尽的图文解析。"
 pubDate: 2025-11-27T18:00:37Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "深度测评"
 tags: ["深度测评", "V机场", "科学上网"]
 topics:

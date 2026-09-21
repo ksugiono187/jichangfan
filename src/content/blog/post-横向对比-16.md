@@ -3,7 +3,7 @@ title: "中转与直连到底怎么选：一翻云 与 Firefly机场 深度解�
 description: "中转与直连到底怎么选：一翻云 官方推荐的 与 Firefly机场 深度解析 指南，结合网友真实反馈，为您提供详尽的图文解析。"
 pubDate: 2026-09-07T18:00:37Z
 updatedDate: 2026-09-21T08:00:00Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "横向对比"
 tags: ["横向对比", "一翻云", "科学上网"]
 topics:

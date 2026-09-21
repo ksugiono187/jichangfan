@@ -3,7 +3,7 @@ title: "Windows客户端推荐：极连云 与 二猫云 深度解析 (2026实�
 description: "全网独家评测：Windows客户端推荐：极连云 的 与 二猫云 深度解析 体验究竟如何？结合晚高峰实测给您最真实的结论。"
 pubDate: 2026-09-12T18:00:37Z
 updatedDate: 2026-09-21T08:00:00Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "新手教程"
 tags: ["新手教程", "极连云", "科学上网"]
 topics:

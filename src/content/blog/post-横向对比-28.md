@@ -3,7 +3,7 @@ title: "U1S1 哪家最适合打游戏"
 description: "U1S1 官方推荐的 哪家最适合打游戏 指南，结合网友真实反馈，为您提供详尽的图文解析。"
 pubDate: 2026-06-11T18:00:37Z
 updatedDate: 2026-09-21T08:00:00Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "横向对比"
 tags: ["横向对比", "U1S1", "科学上网"]
 topics:

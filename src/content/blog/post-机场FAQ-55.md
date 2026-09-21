@@ -3,7 +3,7 @@ title: "Vless协议安全吗：边缘节点 EdgeNova 与 光年梯 深度解析 
 description: "本文针对 Vless协议安全吗：边缘节点 EdgeNova 与 光年梯 深度解析 进行了深度横向对比，带您了解其背后的技术原理与性价比。"
 pubDate: 2025-09-19T18:00:38Z
 updatedDate: 2026-09-21T08:00:00Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "机场FAQ"
 tags: ["机场FAQ", "边缘节点", "科学上网"]
 topics:

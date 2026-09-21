@@ -2,7 +2,7 @@
 title: "Sogo云 Windows客户端推荐"
 description: "想知道 Sogo云 Windows客户端推荐 到底怎么样？本文通过实测数据为您全面揭秘。"
 pubDate: 2025-10-08T18:00:37Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "新手教程"
 tags: ["新手教程", "Sogo云", "科学上网"]
 topics:

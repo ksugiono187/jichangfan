@@ -3,7 +3,7 @@ title: "浪网 全节点速度评测"
 description: "全网独家评测：浪网 的 全节点速度评测 体验究竟如何？结合晚高峰实测给您最真实的结论。"
 pubDate: 2026-07-31T18:00:37Z
 updatedDate: 2026-09-21T08:00:00Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "深度测评"
 tags: ["深度测评", "浪网", "科学上网"]
 topics:

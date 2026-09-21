@@ -3,7 +3,7 @@ title: "光年梯 为什么连不上 - 新手必看"
 description: "一文看懂 光年梯 为什么连不上。不仅有图文教程，还有进阶的技巧分享，适合各阶段用户阅读。"
 pubDate: 2026-03-16T18:00:37Z
 updatedDate: 2026-09-21T08:00:00Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "常见解答"
 tags: ["常见解答", "光年梯", "科学上网"]
 topics:

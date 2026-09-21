@@ -2,7 +2,7 @@
 title: "Netflix解锁机场横向评测：极连云 与 灵猫 深度解析（附图文详解）"
 description: "为您整理了 Netflix解锁机场横向评测：极连云 与 灵猫 深度解析 的最新教程与评测，帮助新手快速避坑。"
 pubDate: 2025-10-22T18:00:37Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "横向对比"
 tags: ["横向对比", "极连云", "科学上网"]
 topics:

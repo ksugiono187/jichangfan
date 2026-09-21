@@ -2,7 +2,7 @@
 title: "U1S1 为什么连不上 | 深度测评"
 description: "关于 为什么连不上 的常见疑问解答。我们将以 U1S1 为例，教您如何正确配置与使用。"
 pubDate: 2025-12-24T18:00:37Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "常见解答"
 tags: ["常见解答", "U1S1", "科学上网"]
 topics:

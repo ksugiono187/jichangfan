@@ -2,7 +2,7 @@
 title: "微风网络 Breezenet 订阅链接失效怎么处理 - 新手必看"
 description: "为您整理了 微风网络 Breezenet 订阅链接失效怎么处理 的最新教程与评测，帮助新手快速避坑。"
 pubDate: 2025-11-29T18:00:37Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "常见解答"
 tags: ["常见解答", "微风网络", "科学上网"]
 topics:

@@ -3,7 +3,7 @@ title: "中转与直连到底怎么选：Firefly机场 与 无忧 深度解析 -
 description: "深入解析 中转与直连到底怎么选：Firefly机场 在 与 无忧 深度解析 方面的真实表现，提供客观的数据分析与选购参考。"
 pubDate: 2026-08-05T18:00:37Z
 updatedDate: 2026-09-21T08:00:00Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "横向对比"
 tags: ["横向对比", "Firefly机场", "科学上网"]
 topics:

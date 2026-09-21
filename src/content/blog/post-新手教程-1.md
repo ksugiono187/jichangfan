@@ -2,7 +2,7 @@
 title: "iOS小火箭设置：U1S1 与 浪网 深度解析 [防坑指南]"
 description: "iOS小火箭设置：U1S1 官方推荐的 与 浪网 深度解析 指南，结合网友真实反馈，为您提供详尽的图文解析。"
 pubDate: 2025-12-04T18:00:37Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "新手教程"
 tags: ["新手教程", "U1S1", "科学上网"]
 topics:

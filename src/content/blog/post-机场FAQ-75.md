@@ -3,7 +3,7 @@ title: "Trojan和Shadowsocks哪个快：V机场 与 极连云 深度解析 (全�
 description: "还在为 Trojan和Shadowsocks哪个快：V机场 与 极连云 深度解析 发愁？这篇保姆级攻略为您提供一步到位的解决方案。"
 pubDate: 2026-06-08T18:00:38Z
 updatedDate: 2026-09-21T08:00:00Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "机场FAQ"
 tags: ["机场FAQ", "V机场", "科学上网"]
 topics:

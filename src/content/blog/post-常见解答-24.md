@@ -2,7 +2,7 @@
 title: "订阅链接失效怎么处理：浪网 与 Firefly机场 深度解析（附图文详解）"
 description: "本文针对 订阅链接失效怎么处理：浪网 与 Firefly机场 深度解析 进行了深度横向对比，带您了解其背后的技术原理与性价比。"
 pubDate: 2025-12-03T18:00:37Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "常见解答"
 tags: ["常见解答", "浪网", "科学上网"]
 topics:

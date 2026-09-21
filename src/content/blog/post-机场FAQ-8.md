@@ -3,7 +3,7 @@ title: "BGP中转是什么意思：星岛梦 与 光速云 深度解析 - 新手
 description: "本文针对 BGP中转是什么意思：星岛梦 与 光速云 深度解析 进行了深度横向对比，带您了解其背后的技术原理与性价比。"
 pubDate: 2026-04-16T18:00:37Z
 updatedDate: 2026-09-21T08:00:00Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "机场FAQ"
 tags: ["机场FAQ", "星岛梦", "科学上网"]
 topics:

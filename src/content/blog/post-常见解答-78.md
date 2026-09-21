@@ -3,7 +3,7 @@ title: "订阅链接失效怎么处理：闪跃 FlashLeap 与 光速云 深度�
 description: "针对近期用户关心的 FlashLeap 与 光速云 深度解析 问题，我们对 订阅链接失效怎么处理：闪跃 进行了长达一周的监控，得出以下结论。"
 pubDate: 2026-05-22T18:00:37Z
 updatedDate: 2026-09-21T08:00:00Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "常见解答"
 tags: ["常见解答", "闪跃", "科学上网"]
 topics:

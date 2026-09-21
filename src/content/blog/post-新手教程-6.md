@@ -3,7 +3,7 @@ title: "光速云 手机端翻墙指南 (2026实测)"
 description: "关于 手机端翻墙指南 的常见疑问解答。我们将以 光速云 为例，教您如何正确配置与使用。"
 pubDate: 2026-09-02T18:00:37Z
 updatedDate: 2026-09-21T08:00:00Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "新手教程"
 tags: ["新手教程", "光速云", "科学上网"]
 topics:

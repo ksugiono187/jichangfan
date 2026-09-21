@@ -2,7 +2,7 @@
 title: "如何更换节点：V机场 与 快狸 KuaiLi 深度解析"
 description: "一文看懂 如何更换节点：V机场 与 快狸 KuaiLi 深度解析。不仅有图文教程，还有进阶的技巧分享，适合各阶段用户阅读。"
 pubDate: 2025-11-17T18:00:37Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "常见解答"
 tags: ["常见解答", "V机场", "科学上网"]
 topics:

@@ -3,7 +3,7 @@ title: "如何选择合适的套餐：边缘节点 EdgeNova 与 星岛梦 深度
 description: "深入解析 如何选择合适的套餐：边缘节点 在 EdgeNova 与 星岛梦 深度解析 方面的真实表现，提供客观的数据分析与选购参考。"
 pubDate: 2026-03-06T18:00:37Z
 updatedDate: 2026-09-21T08:00:00Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "常见解答"
 tags: ["常见解答", "边缘节点", "科学上网"]
 topics:

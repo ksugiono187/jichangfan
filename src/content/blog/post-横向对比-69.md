@@ -3,7 +3,7 @@ title: "光速云 2026年外贸专线对比 - 新手必看"
 description: "为您整理了 光速云 2026年外贸专线对比 的最新教程与评测，帮助新手快速避坑。"
 pubDate: 2025-12-25T18:00:37Z
 updatedDate: 2026-09-21T08:00:00Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "横向对比"
 tags: ["横向对比", "光速云", "科学上网"]
 topics:

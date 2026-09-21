@@ -3,7 +3,7 @@ title: "Firefly机场 全节点速度评测"
 description: "Firefly机场 官方推荐的 全节点速度评测 指南，结合网友真实反馈，为您提供详尽的图文解析。"
 pubDate: 2026-09-17T18:00:37Z
 updatedDate: 2026-09-21T08:00:00Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "深度测评"
 tags: ["深度测评", "Firefly机场", "科学上网"]
 topics:

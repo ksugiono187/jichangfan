@@ -3,7 +3,7 @@ title: "可信云 BGP中转是什么意思"
 description: "针对近期用户关心的 BGP中转是什么意思 问题，我们对 可信云 进行了长达一周的监控，得出以下结论。"
 pubDate: 2026-06-11T18:00:38Z
 updatedDate: 2026-09-21T08:00:00Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "机场FAQ"
 tags: ["机场FAQ", "可信云", "科学上网"]
 topics:

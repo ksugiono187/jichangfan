@@ -3,7 +3,7 @@ title: "BGP中转是什么意思：光年梯 与 暮光网络 深度解析（附
 description: "针对近期用户关心的 与 暮光网络 深度解析 问题，我们对 BGP中转是什么意思：光年梯 进行了长达一周的监控，得出以下结论。"
 pubDate: 2026-04-10T18:00:38Z
 updatedDate: 2026-09-21T08:00:00Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "机场FAQ"
 tags: ["机场FAQ", "光年梯", "科学上网"]
 topics:

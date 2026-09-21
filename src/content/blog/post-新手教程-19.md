@@ -3,7 +3,7 @@ title: "OpenWrt软路由配置：Firefly机场 与 光速云 深度解析"
 description: "全网独家评测：OpenWrt软路由配置：Firefly机场 的 与 光速云 深度解析 体验究竟如何？结合晚高峰实测给您最真实的结论。"
 pubDate: 2026-01-14T18:00:37Z
 updatedDate: 2026-09-21T08:00:00Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "新手教程"
 tags: ["新手教程", "Firefly机场", "科学上网"]
 topics:

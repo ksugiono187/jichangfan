@@ -2,7 +2,7 @@
 title: "宇宙云 BGP中转是什么意思"
 description: "本文针对 宇宙云 BGP中转是什么意思 进行了深度横向对比，带您了解其背后的技术原理与性价比。"
 pubDate: 2025-12-18T18:00:37Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "机场FAQ"
 tags: ["机场FAQ", "宇宙云", "科学上网"]
 topics:

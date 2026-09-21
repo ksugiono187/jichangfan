@@ -3,7 +3,7 @@ title: "V机场 手机端翻墙指南 [防坑指南]"
 description: "针对近期用户关心的 手机端翻墙指南 问题，我们对 V机场 进行了长达一周的监控，得出以下结论。"
 pubDate: 2026-06-05T18:00:37Z
 updatedDate: 2026-09-21T08:00:00Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "新手教程"
 tags: ["新手教程", "V机场", "科学上网"]
 topics:

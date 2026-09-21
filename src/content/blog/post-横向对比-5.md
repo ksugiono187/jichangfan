@@ -3,7 +3,7 @@ title: "U1S1 十家平价机场大横评 (全网首发)"
 description: "为您整理了 U1S1 十家平价机场大横评 的最新教程与评测，帮助新手快速避坑。"
 pubDate: 2026-06-10T18:00:37Z
 updatedDate: 2026-09-21T08:00:00Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "横向对比"
 tags: ["横向对比", "U1S1", "科学上网"]
 topics:

@@ -3,7 +3,7 @@ title: "全节点速度评测：快狸 KuaiLi 与 闪跃 FlashLeap 深度解析"
 description: "关于 KuaiLi 与 闪跃 FlashLeap 深度解析 的常见疑问解答。我们将以 全节点速度评测：快狸 为例，教您如何正确配置与使用。"
 pubDate: 2026-08-01T18:00:37Z
 updatedDate: 2026-09-21T08:00:00Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "深度测评"
 tags: ["深度测评", "快狸", "科学上网"]
 topics:

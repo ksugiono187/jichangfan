@@ -3,7 +3,7 @@ title: "稳定性长期观察：边缘节点 EdgeNova 与 一翻云 深度解析
 description: "一文看懂 稳定性长期观察：边缘节点 EdgeNova 与 一翻云 深度解析。不仅有图文教程，还有进阶的技巧分享，适合各阶段用户阅读。"
 pubDate: 2026-01-30T18:00:37Z
 updatedDate: 2026-09-21T08:00:00Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "深度测评"
 tags: ["深度测评", "边缘节点", "科学上网"]
 ---

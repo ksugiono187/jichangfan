@@ -2,7 +2,7 @@
 title: "Sogo云 Netflix解锁机场横向评测"
 description: "全网独家评测：Sogo云 的 Netflix解锁机场横向评测 体验究竟如何？结合晚高峰实测给您最真实的结论。"
 pubDate: 2025-11-30T18:00:37Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "横向对比"
 tags: ["横向对比", "Sogo云", "科学上网"]
 topics:

@@ -3,7 +3,7 @@ title: "高端机场 vs 平价机场：光年梯 与 V机场 深度解析 - 最�
 description: "深入解析 高端机场 在 vs 平价机场：光年梯 与 V机场 深度解析 方面的真实表现，提供客观的数据分析与选购参考。"
 pubDate: 2026-01-06T18:00:37Z
 updatedDate: 2026-09-21T08:00:00Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "横向对比"
 tags: ["横向对比", "光年梯", "科学上网"]
 topics:

@@ -3,7 +3,7 @@ title: "微风网络 Breezenet 什么是IPLC"
 description: "深入解析 微风网络 在 Breezenet 什么是IPLC 方面的真实表现，提供客观的数据分析与选购参考。"
 pubDate: 2026-07-20T18:00:38Z
 updatedDate: 2026-09-21T08:00:00Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "机场FAQ"
 tags: ["机场FAQ", "微风网络", "科学上网"]
 topics:

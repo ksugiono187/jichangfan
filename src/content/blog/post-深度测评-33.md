@@ -3,7 +3,7 @@ title: "节点专线分析：Firefly机场 与 速界 深度解析 [防坑指南
 description: "节点专线分析：Firefly机场 官方推荐的 与 速界 深度解析 指南，结合网友真实反馈，为您提供详尽的图文解析。"
 pubDate: 2026-06-26T18:00:37Z
 updatedDate: 2026-09-21T08:00:00Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "深度测评"
 tags: ["深度测评", "Firefly机场", "科学上网"]
 topics:

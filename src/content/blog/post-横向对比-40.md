@@ -2,7 +2,7 @@
 title: "微风网络 Breezenet Netflix解锁机场横向评测 [防坑指南]"
 description: "微风网络 官方推荐的 Breezenet Netflix解锁机场横向评测 指南，结合网友真实反馈，为您提供详尽的图文解析。"
 pubDate: 2025-10-05T18:00:37Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "横向对比"
 tags: ["横向对比", "微风网络", "科学上网"]
 topics:

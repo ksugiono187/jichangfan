@@ -3,7 +3,7 @@ title: "极连云 为什么连不上 (全网首发)"
 description: "为您整理了 极连云 为什么连不上 的最新教程与评测，帮助新手快速避坑。"
 pubDate: 2026-05-11T18:00:37Z
 updatedDate: 2026-09-21T08:00:00Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "常见解答"
 tags: ["常见解答", "极连云", "科学上网"]
 topics:

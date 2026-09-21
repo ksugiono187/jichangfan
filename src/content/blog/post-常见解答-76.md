@@ -3,7 +3,7 @@ title: "延迟高怎么办：微风网络 Breezenet 与 飞猫云 深度解析"
 description: "本文针对 延迟高怎么办：微风网络 Breezenet 与 飞猫云 深度解析 进行了深度横向对比，带您了解其背后的技术原理与性价比。"
 pubDate: 2026-06-08T18:00:37Z
 updatedDate: 2026-09-21T08:00:00Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "常见解答"
 tags: ["常见解答", "微风网络", "科学上网"]
 topics:

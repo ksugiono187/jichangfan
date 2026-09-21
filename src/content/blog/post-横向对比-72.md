@@ -3,7 +3,7 @@ title: "飞猫云 IPLC与IEPL对比 (2026实测)"
 description: "深入解析 飞猫云 在 IPLC与IEPL对比 方面的真实表现，提供客观的数据分析与选购参考。"
 pubDate: 2026-08-02T18:00:37Z
 updatedDate: 2026-09-21T08:00:00Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "横向对比"
 tags: ["横向对比", "飞猫云", "科学上网"]
 topics:

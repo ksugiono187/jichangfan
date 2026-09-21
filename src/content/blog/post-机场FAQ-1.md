@@ -3,7 +3,7 @@ title: "隐形人 什么是原生IP (2026实测)"
 description: "关于 什么是原生IP 的常见疑问解答。我们将以 隐形人 为例，教您如何正确配置与使用。"
 pubDate: 2025-10-17T18:00:37Z
 updatedDate: 2026-09-21T08:00:00Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "机场FAQ"
 tags: ["机场FAQ", "隐形人", "科学上网"]
 topics:

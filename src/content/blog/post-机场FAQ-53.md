@@ -2,7 +2,7 @@
 title: "梯子云 Trojan和Shadowsocks哪个快 - 最新教程"
 description: "本文针对 梯子云 Trojan和Shadowsocks哪个快 进行了深度横向对比，带您了解其背后的技术原理与性价比。"
 pubDate: 2025-09-22T18:00:38Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "机场FAQ"
 tags: ["机场FAQ", "梯子云", "科学上网"]
 topics:

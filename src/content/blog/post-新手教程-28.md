@@ -3,7 +3,7 @@ title: "OpenWrt软路由配置：极连云 与 二猫云 深度解析"
 description: "深入解析 OpenWrt软路由配置：极连云 在 与 二猫云 深度解析 方面的真实表现，提供客观的数据分析与选购参考。"
 pubDate: 2026-01-09T18:00:37Z
 updatedDate: 2026-09-21T08:00:00Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "新手教程"
 tags: ["新手教程", "极连云", "科学上网"]
 topics:

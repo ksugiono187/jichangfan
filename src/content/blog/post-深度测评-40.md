@@ -2,7 +2,7 @@
 title: "全节点速度评测：微风网络 Breezenet 与 闪跃 FlashLeap 深度解析 (全网首发)"
 description: "全网独家评测：全节点速度评测：微风网络 的 Breezenet 与 闪跃 FlashLeap 深度解析 体验究竟如何？结合晚高峰实测给您最真实的结论。"
 pubDate: 2025-12-27T18:00:37Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "深度测评"
 tags: ["深度测评", "微风网络", "科学上网"]
 topics:

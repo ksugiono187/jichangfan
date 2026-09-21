@@ -2,7 +2,7 @@
 title: "浪网 OpenWrt软路由配置 - 最新教程"
 description: "浪网 官方推荐的 OpenWrt软路由配置 指南，结合网友真实反馈，为您提供详尽的图文解析。"
 pubDate: 2025-12-09T18:00:37Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "新手教程"
 tags: ["新手教程", "浪网", "科学上网"]
 topics:

@@ -3,7 +3,7 @@ title: "速界 如何更换节点"
 description: "本文针对 速界 如何更换节点 进行了深度横向对比，带您了解其背后的技术原理与性价比。"
 pubDate: 2026-08-28T18:00:37Z
 updatedDate: 2026-09-21T08:00:00Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "常见解答"
 tags: ["常见解答", "速界", "科学上网"]
 topics:

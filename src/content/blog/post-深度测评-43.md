@@ -3,7 +3,7 @@ title: "游戏延迟分析：梯子云 与 快狸 KuaiLi 深度解析 (全网首
 description: "本文针对 游戏延迟分析：梯子云 与 快狸 KuaiLi 深度解析 进行了深度横向对比，带您了解其背后的技术原理与性价比。"
 pubDate: 2026-01-24T18:00:37Z
 updatedDate: 2026-09-21T08:00:00Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "深度测评"
 tags: ["深度测评", "梯子云", "科学上网"]
 ---

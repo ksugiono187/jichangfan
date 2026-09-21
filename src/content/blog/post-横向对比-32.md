@@ -3,7 +3,7 @@ title: "2026年外贸专线对比：边缘节点 EdgeNova 与 隐形人 深度�
 description: "为您整理了 2026年外贸专线对比：边缘节点 EdgeNova 与 隐形人 深度解析 的最新教程与评测，帮助新手快速避坑。"
 pubDate: 2025-11-14T18:00:37Z
 updatedDate: 2026-09-21T08:00:00Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "横向对比"
 tags: ["横向对比", "边缘节点", "科学上网"]
 topics:

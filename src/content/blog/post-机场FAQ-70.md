@@ -3,7 +3,7 @@ title: "什么是原生IP：快狸 KuaiLi 与 闪跃 FlashLeap 深度解析（�
 description: "全网独家评测：什么是原生IP：快狸 的 KuaiLi 与 闪跃 FlashLeap 深度解析 体验究竟如何？结合晚高峰实测给您最真实的结论。"
 pubDate: 2026-06-28T18:00:38Z
 updatedDate: 2026-09-21T08:00:00Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "机场FAQ"
 tags: ["机场FAQ", "快狸", "科学上网"]
 topics:

@@ -2,7 +2,7 @@
 title: "Sogo云 性价比分析 - 最新教程"
 description: "深入解析 Sogo云 在 性价比分析 方面的真实表现，提供客观的数据分析与选购参考。"
 pubDate: 2025-10-19T18:00:37Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "深度测评"
 tags: ["深度测评", "Sogo云", "科学上网"]
 ---

@@ -3,7 +3,7 @@ title: "光年梯 什么是原生IP（附图文详解）"
 description: "针对近期用户关心的 什么是原生IP 问题，我们对 光年梯 进行了长达一周的监控，得出以下结论。"
 pubDate: 2026-08-11T18:00:38Z
 updatedDate: 2026-09-21T08:00:00Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "机场FAQ"
 tags: ["机场FAQ", "光年梯", "科学上网"]
 topics:

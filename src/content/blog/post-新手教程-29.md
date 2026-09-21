@@ -3,7 +3,7 @@ title: "边缘节点 EdgeNova OpenWrt软路由配置"
 description: "还在为 边缘节点 EdgeNova OpenWrt软路由配置 发愁？这篇保姆级攻略为您提供一步到位的解决方案。"
 pubDate: 2026-05-21T18:00:37Z
 updatedDate: 2026-09-21T08:00:00Z
-author: "节点GO 编辑部"
+author: "机场翻编辑部"
 category: "新手教程"
 tags: ["新手教程", "边缘节点", "科学上网"]
 topics:
