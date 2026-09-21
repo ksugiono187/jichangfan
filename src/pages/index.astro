@@ -14,14 +14,23 @@ import { HOMEPAGE_DATA } from '../data/homepage';
 import { getCollection } from 'astro:content';
 
 const posts = await getCollection('blog');
-const recentPosts = posts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()).slice(0, 3);
+const airportDocs = await getCollection('airport');
 const topics = await getCollection('topics');
 const brands = await getCollection('brands');
+
+const recentPosts = posts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()).slice(0, 3);
 brands.sort((a, b) => (a.data.sortOrder || 999) - (b.data.sortOrder || 999));
+
+const realStats = [
+  { label: '收录品牌', value: brands.length.toString() },
+  { label: '博客文章', value: posts.length.toString() },
+  { label: '机场指南', value: airportDocs.length.toString() },
+  { label: '专题聚合', value: topics.length.toString() }
+];
 ---
 <LandingLayout title="首页 - 机场推荐指南" description="专业的机场评测、教程与对比，帮您找到最适合的科学上网服务。">
   <Hero {...HOMEPAGE_DATA.hero} />
-  <StatsStrip stats={HOMEPAGE_DATA.stats} />
+  <StatsStrip stats={realStats} />
   
   <section class="py-20 bg-zinc-900">
     <div class="max-w-6xl mx-auto px-4">
