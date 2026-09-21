@@ -1,0 +1,61 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import ArticleCard from '../../../components/ArticleCard.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths({ paginate }: { paginate: any }) {
+  const posts = await getCollection('blog');
+  const categories = [...new Set(posts.map(post => post.data.category))].filter(Boolean);
+  
+  return categories.flatMap(category => {
+    const filteredPosts = posts
+      .filter(post => post.data.category === category)
+      .sort((a: any, b: any) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+      
+    return paginate(filteredPosts, {
+      params: { category },
+      pageSize: 24
+    });
+  });
+}
+
+const { category } = Astro.params;
+const { page } = Astro.props as any;
+
+const pageTitle = page.currentPage > 1 
+  ? `${category} - 分类归档 (第 ${page.currentPage} 页)` 
+  : `${category} - 分类归档`;
+---
+<BaseLayout title={pageTitle} description={`浏览 ${category} 分类下的所有优质测评论文与教程。`}>
+  <div class="max-w-6xl mx-auto px-4 py-16">
+    <div class="mb-12 border-b border-zinc-800 pb-6 text-center">
+      <h1 class="text-4xl font-bold text-zinc-50 mb-4">{category}</h1>
+      <p class="text-zinc-400">该分类下共有 {page.total} 篇文章</p>
+    </div>
+    
+    <div class="grid md:grid-cols-3 gap-8">
+      {page.data.map((post: any) => <ArticleCard post={post} />)}
+    </div>
+    
+    <!-- Pagination UI -->
+    {page.lastPage > 1 && (
+      <div class="flex justify-center items-center mt-16 gap-3">
+        {page.url.prev ? (
+          <a href={page.url.prev} class="px-5 py-2.5 rounded-lg bg-zinc-900 border border-zinc-700 text-zinc-300 hover:border-amber-500 hover:text-amber-500 transition-colors font-medium shadow-sm">上一页</a>
+        ) : (
+          <span class="px-5 py-2.5 rounded-lg bg-zinc-900/40 border border-zinc-800/50 text-zinc-600 cursor-not-allowed font-medium">上一页</span>
+        )}
+        
+        <div class="px-4 py-2 bg-zinc-900/60 rounded-lg border border-zinc-800/80 text-zinc-400 font-medium tracking-wide">
+          <span class="text-zinc-200">{page.currentPage}</span> / {page.lastPage}
+        </div>
+        
+        {page.url.next ? (
+          <a href={page.url.next} class="px-5 py-2.5 rounded-lg bg-zinc-900 border border-zinc-700 text-zinc-300 hover:border-amber-500 hover:text-amber-500 transition-colors font-medium shadow-sm">下一页</a>
+        ) : (
+          <span class="px-5 py-2.5 rounded-lg bg-zinc-900/40 border border-zinc-800/50 text-zinc-600 cursor-not-allowed font-medium">下一页</span>
+        )}
+      </div>
+    )}
+  </div>
+</BaseLayout>
