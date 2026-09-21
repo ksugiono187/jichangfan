@@ -13,6 +13,7 @@ const blogCollection = defineCollection({
     draft: z.boolean().default(false),
     featured: z.boolean().default(false),
     author: z.string().default('机场翻'),
+    image: z.string().optional(),
   }),
 });
 

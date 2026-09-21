@@ -11,14 +11,15 @@ interface Props {
   description: string;
   keywords?: string;
   canonical?: string;
+  image?: string;
 }
-const { title, description, keywords, canonical } = Astro.props;
+const { title, description, keywords, canonical, image } = Astro.props;
 const finalKeywords = keywords || SITE.keywords;
 ---
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-  <SeoHead title={title} description={description} keywords={finalKeywords} canonical={canonical} />
+  <SeoHead title={title} description={description} keywords={finalKeywords} canonical={canonical} image={image} />
 </head>
 <body class="bg-zinc-950 text-zinc-50 font-sans antialiased min-h-screen flex flex-col">
   <Header />
