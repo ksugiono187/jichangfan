@@ -29,10 +29,10 @@ const relatedPosts = allPosts.filter(post => {
   
   // 默认回退匹配
   return searchStr.includes(topic.id.toLowerCase());
-}).slice(0, 6);
+});
 
-// 如果匹配不到，则随机/默认显示最新的6篇
-const finalPosts = relatedPosts.length > 0 ? relatedPosts : allPosts.slice(0, 6);
+// 为了打造强大的 SEO 内链网，专题页将展示所有匹配到的相关文章（最多展示 100 篇以保证页面加载性能）
+const finalPosts = relatedPosts.length > 0 ? relatedPosts.slice(0, 100) : allPosts.slice(0, 20);
 ---
 <BaseLayout title={topic.data.title} description={topic.data.description}>
   <div class="max-w-4xl mx-auto px-4 py-16">
