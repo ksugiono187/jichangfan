@@ -1,6 +1,6 @@
 ---
-title: "Sogo云 Windows客户端推荐 (2026最新版)"
-description: "本文详细探讨了 Windows客户端推荐 相关的核心问题，结合 Sogo云 的实际表现，为您提供最专业的分析与建议。"
+title: "Sogo云 Windows客户端推荐"
+description: "想知道 Sogo云 Windows客户端推荐 到底怎么样？本文通过实测数据为您全面揭秘。"
 pubDate: 2025-10-08T18:00:37Z
 author: "节点GO 编辑部"
 category: "新手教程"

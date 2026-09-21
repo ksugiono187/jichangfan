@@ -1,6 +1,6 @@
 ---
-title: "OpenWrt软路由配置：速界 与 Sogo云 深度解析"
-description: "本文详细探讨了 OpenWrt软路由配置 相关的核心问题，结合 速界 的实际表现，为您提供最专业的分析与建议。"
+title: "OpenWrt软路由配置：速界 与 Sogo云 深度解析 - 新手必看"
+description: "一文看懂 OpenWrt软路由配置：速界 与 Sogo云 深度解析。不仅有图文教程，还有进阶的技巧分享，适合各阶段用户阅读。"
 pubDate: 2026-06-29T18:00:37Z
 author: "节点GO 编辑部"
 category: "新手教程"

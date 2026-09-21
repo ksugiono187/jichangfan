@@ -1,6 +1,6 @@
 ---
 title: "BGP中转是什么意思：微风网络 Breezenet 与 光速云 深度解析"
-description: "本文详细探讨了 BGP中转是什么意思 相关的核心问题，结合 微风网络 Breezenet 的实际表现，为您提供最专业的分析与建议。"
+description: "关于 Breezenet 与 光速云 深度解析 的常见疑问解答。我们将以 BGP中转是什么意思：微风网络 为例，教您如何正确配置与使用。"
 pubDate: 2025-09-24T18:00:37Z
 author: "节点GO 编辑部"
 category: "机场FAQ"

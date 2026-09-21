@@ -1,6 +1,6 @@
 ---
-title: "边缘节点 EdgeNova 什么是IPLC (2026最新版)"
-description: "本文详细探讨了 什么是IPLC 相关的核心问题，结合 边缘节点 EdgeNova 的实际表现，为您提供最专业的分析与建议。"
+title: "边缘节点 EdgeNova 什么是IPLC（附图文详解）"
+description: "本文针对 边缘节点 EdgeNova 什么是IPLC 进行了深度横向对比，带您了解其背后的技术原理与性价比。"
 pubDate: 2026-01-24T18:00:38Z
 author: "节点GO 编辑部"
 category: "机场FAQ"

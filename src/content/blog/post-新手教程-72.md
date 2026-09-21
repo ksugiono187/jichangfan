@@ -1,6 +1,6 @@
 ---
-title: "速界 Clash导入指南 (2026最新版)"
-description: "本文详细探讨了 Clash导入指南 相关的核心问题，结合 速界 的实际表现，为您提供最专业的分析与建议。"
+title: "速界 Clash导入指南 (全网首发)"
+description: "关于 Clash导入指南 的常见疑问解答。我们将以 速界 为例，教您如何正确配置与使用。"
 pubDate: 2026-08-18T18:00:37Z
 author: "节点GO 编辑部"
 category: "新手教程"

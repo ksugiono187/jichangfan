@@ -1,6 +1,6 @@
 ---
-title: "光年梯 OpenWrt软路由配置 (2026最新版)"
-description: "本文详细探讨了 OpenWrt软路由配置 相关的核心问题，结合 光年梯 的实际表现，为您提供最专业的分析与建议。"
+title: "光年梯 OpenWrt软路由配置（附图文详解）"
+description: "还在为 光年梯 OpenWrt软路由配置 发愁？这篇保姆级攻略为您提供一步到位的解决方案。"
 pubDate: 2026-07-13T18:00:37Z
 author: "节点GO 编辑部"
 category: "新手教程"

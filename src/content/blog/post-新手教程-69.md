@@ -1,6 +1,6 @@
 ---
 title: "Clash导入指南：边缘节点 EdgeNova 与 宇宙云 深度解析"
-description: "本文详细探讨了 Clash导入指南 相关的核心问题，结合 边缘节点 EdgeNova 的实际表现，为您提供最专业的分析与建议。"
+description: "本文针对 Clash导入指南：边缘节点 EdgeNova 与 宇宙云 深度解析 进行了深度横向对比，带您了解其背后的技术原理与性价比。"
 pubDate: 2026-08-30T18:00:37Z
 author: "节点GO 编辑部"
 category: "新手教程"

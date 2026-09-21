@@ -1,6 +1,6 @@
 ---
-title: "灵动云 什么是IPLC (2026最新版)"
-description: "本文详细探讨了 什么是IPLC 相关的核心问题，结合 灵动云 的实际表现，为您提供最专业的分析与建议。"
+title: "灵动云 什么是IPLC | 深度测评"
+description: "深入解析 灵动云 在 什么是IPLC 方面的真实表现，提供客观的数据分析与选购参考。"
 pubDate: 2026-05-27T18:00:37Z
 author: "节点GO 编辑部"
 category: "机场FAQ"

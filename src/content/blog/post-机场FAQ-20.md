@@ -1,6 +1,6 @@
 ---
-title: "全球云 Trojan和Shadowsocks哪个快 (2026最新版)"
-description: "本文详细探讨了 Trojan和Shadowsocks哪个快 相关的核心问题，结合 全球云 的实际表现，为您提供最专业的分析与建议。"
+title: "全球云 Trojan和Shadowsocks哪个快"
+description: "针对近期用户关心的 Trojan和Shadowsocks哪个快 问题，我们对 全球云 进行了长达一周的监控，得出以下结论。"
 pubDate: 2025-12-12T18:00:37Z
 author: "节点GO 编辑部"
 category: "机场FAQ"

@@ -1,6 +1,6 @@
 ---
-title: "OpenWrt软路由配置：Firefly机场 与 快狸 KuaiLi 深度解析"
-description: "本文详细探讨了 OpenWrt软路由配置 相关的核心问题，结合 Firefly机场 的实际表现，为您提供最专业的分析与建议。"
+title: "OpenWrt软路由配置：Firefly机场 与 快狸 KuaiLi 深度解析 | 深度测评"
+description: "全网独家评测：OpenWrt软路由配置：Firefly机场 的 与 快狸 KuaiLi 深度解析 体验究竟如何？结合晚高峰实测给您最真实的结论。"
 pubDate: 2026-08-09T18:00:37Z
 author: "节点GO 编辑部"
 category: "新手教程"

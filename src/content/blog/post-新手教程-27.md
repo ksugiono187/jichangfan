@@ -1,6 +1,6 @@
 ---
-title: "微风网络 Breezenet 如何配置 (2026最新版)"
-description: "本文详细探讨了 如何配置 相关的核心问题，结合 微风网络 Breezenet 的实际表现，为您提供最专业的分析与建议。"
+title: "微风网络 Breezenet 如何配置 - 最新教程"
+description: "一文看懂 微风网络 Breezenet 如何配置。不仅有图文教程，还有进阶的技巧分享，适合各阶段用户阅读。"
 pubDate: 2025-12-14T18:00:37Z
 author: "节点GO 编辑部"
 category: "新手教程"

@@ -1,6 +1,6 @@
 ---
 title: "Trojan和Shadowsocks哪个快：光年梯 与 梯子云 深度解析"
-description: "本文详细探讨了 Trojan和Shadowsocks哪个快 相关的核心问题，结合 光年梯 的实际表现，为您提供最专业的分析与建议。"
+description: "深入解析 Trojan和Shadowsocks哪个快：光年梯 在 与 梯子云 深度解析 方面的真实表现，提供客观的数据分析与选购参考。"
 pubDate: 2026-03-08T18:00:37Z
 author: "节点GO 编辑部"
 category: "机场FAQ"

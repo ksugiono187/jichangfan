@@ -1,6 +1,6 @@
 ---
-title: "浪网 OpenWrt软路由配置 (2026最新版)"
-description: "本文详细探讨了 OpenWrt软路由配置 相关的核心问题，结合 浪网 的实际表现，为您提供最专业的分析与建议。"
+title: "浪网 OpenWrt软路由配置 - 最新教程"
+description: "浪网 官方推荐的 OpenWrt软路由配置 指南，结合网友真实反馈，为您提供详尽的图文解析。"
 pubDate: 2025-12-09T18:00:37Z
 author: "节点GO 编辑部"
 category: "新手教程"
