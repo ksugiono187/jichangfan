@@ -2,6 +2,8 @@
 title: "机场和VPN有什么区别？一文看懂两者的底层差异"
 description: "全面对比代理机场与传统VPN在协议、速度、分流机制、客户端及适用人群上的核心差异。"
 order: 4
+topics:
+  - airport-guide
 ---
 
 ## 一、 为什么大家都在放弃 VPN 转投机场？

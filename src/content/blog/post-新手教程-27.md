@@ -5,6 +5,8 @@ pubDate: 2025-12-14T18:00:37Z
 author: "节点GO 编辑部"
 category: "新手教程"
 tags: ["新手教程", "微风网络", "科学上网"]
+topics:
+  - beginner
 ---
 
 Breezenet 如何配置 到底好不好用？新手该如何避坑？本文为您准备了详尽的干货解答。

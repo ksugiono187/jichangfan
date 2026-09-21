@@ -6,6 +6,9 @@ updatedDate: 2026-09-21T08:00:00Z
 author: "节点GO 编辑部"
 category: "新手教程"
 tags: ["新手教程", "边缘节点", "科学上网"]
+topics:
+  - beginner
+  - shadowrocket
 ---
 
 近期，关于 EdgeNova iOS小火箭设置 的讨论在各大技术社区热度不减。本文将结合最新测试数据，带您深入了解其背后的技术逻辑。

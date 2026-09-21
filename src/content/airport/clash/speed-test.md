@@ -2,6 +2,8 @@
 title: "Clash 高级测速与节点优选技巧"
 description: "掌握 Clash 客户端内置的连通性测试与延迟测试工具，让您的网络时刻保持最佳状态。"
 order: 3
+topics:
+  - clash
 ---
 
 ## 一、 为什么要测速？

@@ -5,6 +5,9 @@ pubDate: 2025-12-24T18:00:38Z
 author: "节点GO 编辑部"
 category: "机场FAQ"
 tags: ["机场FAQ", "光速云", "科学上网"]
+topics:
+  - beginner
+  - airport-guide
 ---
 
 与 快狸 KuaiLi 深度解析 到底好不好用？新手该如何避坑？本文为您准备了详尽的干货解答。

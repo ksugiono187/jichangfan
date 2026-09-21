@@ -5,6 +5,9 @@ pubDate: 2025-12-19T18:00:38Z
 author: "节点GO 编辑部"
 category: "机场FAQ"
 tags: ["机场FAQ", "U1S1", "科学上网"]
+topics:
+  - beginner
+  - airport-guide
 ---
 
 机场跑路前有哪些征兆 到底好不好用？新手该如何避坑？本文为您准备了详尽的干货解答。

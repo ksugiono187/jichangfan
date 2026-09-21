@@ -6,6 +6,10 @@ updatedDate: 2026-09-21T08:00:00Z
 author: "节点GO 编辑部"
 category: "新手教程"
 tags: ["新手教程", "Firefly机场", "科学上网"]
+topics:
+  - beginner
+  - shadowrocket
+  - airport-guide
 ---
 
 经过长达一个月的深度使用，我们对 iOS小火箭设置 有了全新的认识。接下来就和大家分享一下我们的核心发现。

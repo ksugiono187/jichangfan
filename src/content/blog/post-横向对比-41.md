@@ -6,6 +6,9 @@ updatedDate: 2026-09-21T08:00:00Z
 author: "节点GO 编辑部"
 category: "横向对比"
 tags: ["横向对比", "光年梯", "科学上网"]
+topics:
+  - beginner
+  - airport-guide
 ---
 
 近期，关于 IPLC与IEPL对比 的讨论在各大技术社区热度不减。本文将结合最新测试数据，带您深入了解其背后的技术逻辑。

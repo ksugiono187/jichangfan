@@ -6,6 +6,8 @@ updatedDate: 2026-09-21T08:00:00Z
 author: "节点GO 编辑部"
 category: "常见解答"
 tags: ["常见解答", "闪跃", "科学上网"]
+topics:
+  - beginner
 ---
 
 经过长达一个月的深度使用，我们对 FlashLeap 与 光速云 深度解析 有了全新的认识。接下来就和大家分享一下我们的核心发现。

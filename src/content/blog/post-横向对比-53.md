@@ -6,6 +6,9 @@ updatedDate: 2026-09-21T08:00:00Z
 author: "节点GO 编辑部"
 category: "横向对比"
 tags: ["横向对比", "星岛梦", "科学上网"]
+topics:
+  - beginner
+  - airport-guide
 ---
 
 经过长达一个月的深度使用，我们对 IPLC与IEPL对比 有了全新的认识。接下来就和大家分享一下我们的核心发现。

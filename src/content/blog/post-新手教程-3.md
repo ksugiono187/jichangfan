@@ -5,6 +5,9 @@ pubDate: 2025-10-30T18:00:37Z
 author: "节点GO 编辑部"
 category: "新手教程"
 tags: ["新手教程", "无忧", "科学上网"]
+topics:
+  - beginner
+  - clash
 ---
 
 Clash导入指南 到底好不好用？新手该如何避坑？本文为您准备了详尽的干货解答。

@@ -2,6 +2,8 @@
 title: "Sing-box 极客配置与深度调优"
 description: "包含 Hysteria2 协议支持、内存优化、TUN 模式故障排除等核心调优指南。"
 order: 99
+topics:
+  - sing-box
 ---
 
 本文将为您汇总该分类下的一系列高频问题与进阶技巧，帮助您全面提升使用体验。

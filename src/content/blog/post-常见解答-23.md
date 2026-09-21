@@ -6,6 +6,8 @@ updatedDate: 2026-09-21T08:00:00Z
 author: "节点GO 编辑部"
 category: "常见解答"
 tags: ["常见解答", "微风网络", "科学上网"]
+topics:
+  - beginner
 ---
 
 Breezenet 流量用完了怎么办 到底好不好用？新手该如何避坑？本文为您准备了详尽的干货解答。

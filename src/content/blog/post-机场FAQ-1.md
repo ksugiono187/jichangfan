@@ -6,6 +6,9 @@ updatedDate: 2026-09-21T08:00:00Z
 author: "节点GO 编辑部"
 category: "机场FAQ"
 tags: ["机场FAQ", "隐形人", "科学上网"]
+topics:
+  - beginner
+  - airport-guide
 ---
 
 什么是原生IP 到底好不好用？新手该如何避坑？本文为您准备了详尽的干货解答。

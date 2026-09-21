@@ -2,6 +2,8 @@
 title: "如何将机场订阅导入 Clash：图文实战教程"
 description: "保姆级图文教程，手把手教您在 Windows/macOS 的 Clash 客户端中导入订阅链接并成功翻墙。"
 order: 2
+topics:
+  - clash
 ---
 
 ## 准备工作

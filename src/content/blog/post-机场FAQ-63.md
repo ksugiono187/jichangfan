@@ -6,6 +6,9 @@ updatedDate: 2026-09-21T08:00:00Z
 author: "节点GO 编辑部"
 category: "机场FAQ"
 tags: ["机场FAQ", "灵猫", "科学上网"]
+topics:
+  - beginner
+  - airport-guide
 ---
 
 很多朋友在配置网络时，经常会遇到 IEPL有什么区别（附图文详解） 相关的问题。今天我们结合实测，给大家提供一套切实可行的方案。

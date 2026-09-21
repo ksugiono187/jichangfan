@@ -5,6 +5,9 @@ pubDate: 2025-12-13T18:00:37Z
 author: "节点GO 编辑部"
 category: "横向对比"
 tags: ["横向对比", "飞猫云", "科学上网"]
+topics:
+  - beginner
+  - airport-guide
 ---
 
 vs 平价机场：飞猫云 与 边缘节点 EdgeNova 深度解析 到底好不好用？新手该如何避坑？本文为您准备了详尽的干货解答。

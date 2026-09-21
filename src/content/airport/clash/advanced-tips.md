@@ -2,6 +2,8 @@
 title: "Clash 进阶配置与高级技巧汇总"
 description: "涵盖 Clash 规则自定义、TUN 模式排错、Meta 核心特性等进阶知识点集合。"
 order: 99
+topics:
+  - clash
 ---
 
 本文将为您汇总该分类下的一系列高频问题与进阶技巧，帮助您全面提升使用体验。

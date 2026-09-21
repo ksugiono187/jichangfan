@@ -2,6 +2,8 @@
 title: "sing-box 导入机场订阅与配置教程"
 description: "详细演示如何在移动端及桌面端的 sing-box 官方客户端中添加 Remote Profile，实现一键科学上网。"
 order: 2
+topics:
+  - sing-box
 ---
 
 ## 准备工作

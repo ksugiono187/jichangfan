@@ -6,6 +6,8 @@ updatedDate: 2026-09-21T08:00:00Z
 author: "节点GO 编辑部"
 category: "深度测评"
 tags: ["深度测评", "微风网络", "科学上网"]
+topics:
+  - airport-guide
 ---
 
 很多朋友在配置网络时，经常会遇到 Breezenet 全节点速度评测 相关的问题。今天我们结合实测，给大家提供一套切实可行的方案。

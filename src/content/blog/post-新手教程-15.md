@@ -6,6 +6,9 @@ updatedDate: 2026-09-21T08:00:00Z
 author: "节点GO 编辑部"
 category: "新手教程"
 tags: ["新手教程", "微风网络", "科学上网"]
+topics:
+  - beginner
+  - clash
 ---
 
 很多朋友在配置网络时，经常会遇到 Breezenet 与 可信云 深度解析 相关的问题。今天我们结合实测，给大家提供一套切实可行的方案。

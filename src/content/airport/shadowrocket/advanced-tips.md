@@ -2,6 +2,8 @@
 title: "Shadowrocket 高阶玩法与常见报错"
 description: "收录小火箭去广告配置、耗电优化、后台断流排查等十余个实用技巧。"
 order: 99
+topics:
+  - shadowrocket
 ---
 
 本文将为您汇总该分类下的一系列高频问题与进阶技巧，帮助您全面提升使用体验。

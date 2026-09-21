@@ -10,6 +10,7 @@ const blogCollection = defineCollection({
     updatedDate: z.date().optional(),
     category: z.string(),
     tags: z.array(z.string()),
+    topics: z.array(z.string()).optional(),
     draft: z.boolean().default(false),
     featured: z.boolean().default(false),
     author: z.string().default('机场翻'),
@@ -49,6 +50,7 @@ const airportCollection = defineCollection({
     title: z.string(),
     description: z.string(),
     order: z.number().optional(),
+    topics: z.array(z.string()).optional(),
   }),
 });
 

@@ -5,6 +5,8 @@ pubDate: 2025-12-29T18:00:37Z
 author: "节点GO 编辑部"
 category: "横向对比"
 tags: ["横向对比", "边缘节点", "科学上网"]
+topics:
+  - airport-guide
 ---
 
 EdgeNova 与 速界 深度解析 到底好不好用？新手该如何避坑？本文为您准备了详尽的干货解答。

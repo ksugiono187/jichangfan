@@ -2,6 +2,8 @@
 title: "小火箭 Shadowrocket 订阅导入与使用教程"
 description: "两分钟上手！图文详解如何在 iPhone 小火箭客户端中导入机场节点并开启智能路由。"
 order: 2
+topics:
+  - shadowrocket
 ---
 
 ## 准备工作

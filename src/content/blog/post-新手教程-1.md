@@ -5,6 +5,9 @@ pubDate: 2025-12-04T18:00:37Z
 author: "节点GO 编辑部"
 category: "新手教程"
 tags: ["新手教程", "U1S1", "科学上网"]
+topics:
+  - beginner
+  - shadowrocket
 ---
 
 经过长达一个月的深度使用，我们对 与 浪网 深度解析 有了全新的认识。接下来就和大家分享一下我们的核心发现。

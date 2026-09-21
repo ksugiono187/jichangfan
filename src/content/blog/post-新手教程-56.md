@@ -5,6 +5,9 @@ pubDate: 2025-09-19T18:00:37Z
 author: "节点GO 编辑部"
 category: "新手教程"
 tags: ["新手教程", "Firefly机场", "科学上网"]
+topics:
+  - beginner
+  - airport-guide
 ---
 
 近期，关于 手机端翻墙指南 的讨论在各大技术社区热度不减。本文将结合最新测试数据，带您深入了解其背后的技术逻辑。

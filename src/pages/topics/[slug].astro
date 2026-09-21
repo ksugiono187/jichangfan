@@ -15,21 +15,8 @@ const { topic } = Astro.props;
 const { Content } = await render(topic);
 const allPosts = await getCollection('blog');
 
-// 根据专题的 ID 或 Title 动态匹配相关的文章
-const relatedPosts = allPosts.filter(post => {
-  const keywordStr = `${topic.id} ${topic.data.title}`.toLowerCase();
-  const searchStr = `${post.data.title} ${post.data.description} ${post.data.tags.join(' ')} ${post.data.category}`.toLowerCase();
-  
-  // 简单匹配：如果文章标题、描述、标签中包含专题的任意关键词（取交集或部分匹配）
-  if (topic.id === 'beginner') return searchStr.includes('新手') || searchStr.includes('常见解答');
-  if (topic.id === 'clash') return searchStr.includes('clash');
-  if (topic.id === 'shadowrocket') return searchStr.includes('shadowrocket') || searchStr.includes('小火箭');
-  if (topic.id === 'sing-box') return searchStr.includes('sing-box') || searchStr.includes('singbox');
-  if (topic.id === 'airport-guide') return searchStr.includes('机场') || searchStr.includes('评测') || searchStr.includes('对比');
-  
-  // 默认回退匹配
-  return searchStr.includes(topic.id.toLowerCase());
-});
+// 根据 frontmatter 中的 topics 字段精确匹配
+const relatedPosts = allPosts.filter(post => post.data.topics && post.data.topics.includes(topic.id));
 
 // 为了打造强大的 SEO 内链网，专题页将展示所有匹配到的相关文章（最多展示 100 篇以保证页面加载性能）
 const finalPosts = relatedPosts.length > 0 ? relatedPosts.slice(0, 100) : allPosts.slice(0, 20);

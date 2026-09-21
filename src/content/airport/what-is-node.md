@@ -2,6 +2,8 @@
 title: "机场节点是什么？直连、中转与专线的深度对比"
 description: "深入了解机场节点的技术构成、线路分类（公网直连、BGP中转、IPLC/IEPL专线）及其对速度的影响。"
 order: 3
+topics:
+  - airport-guide
 ---
 
 ## 一、 节点 (Node) 的基本概念

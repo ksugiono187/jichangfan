@@ -6,6 +6,8 @@ updatedDate: 2026-09-21T08:00:00Z
 author: "节点GO 编辑部"
 category: "横向对比"
 tags: ["横向对比", "星岛梦", "科学上网"]
+topics:
+  - airport-guide
 ---
 
 近期，关于 Netflix解锁机场横向评测 的讨论在各大技术社区热度不减。本文将结合最新测试数据，带您深入了解其背后的技术逻辑。

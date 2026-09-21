@@ -2,6 +2,8 @@
 title: "机场主流代理协议全面解析"
 description: "深入浅出地讲解 Shadowsocks、Vmess、Trojan、Vless 等主流科学上网协议的演进历程与技术特征。"
 order: 6
+topics:
+  - airport-guide
 ---
 
 ## 一、 协议之战：魔高一尺，道高一丈
