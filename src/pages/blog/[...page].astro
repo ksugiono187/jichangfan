@@ -1,0 +1,57 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import SectionTitle from '../../components/SectionTitle.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths({ paginate }: { paginate: any }) {
+  const posts = await getCollection('blog');
+  const sortedPosts = posts.sort((a: any, b: any) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+  // 按照建议，每页 24 篇
+  return paginate(sortedPosts, { pageSize: 24 });
+}
+
+const { page } = Astro.props as any;
+const pageTitle = page.currentPage > 1 
+  ? `博客文章 (第 ${page.currentPage} 页) - 最新评测与教程 | 机场翻` 
+  : `博客文章 - 最新评测与教程 | 机场翻`;
+---
+<BaseLayout title={pageTitle} description="浏览我们最新的机场评测、使用教程和行业资讯。">
+  <div class="max-w-6xl mx-auto px-4 py-16">
+    <SectionTitle title="博客文章" subtitle="最新评测、使用教程与行业资讯" />
+    
+    <!-- Categories Navigation -->
+    <div class="flex flex-wrap justify-center gap-4 mb-12">
+      <a href="/category/新手教程" class="px-6 py-2 rounded-full bg-zinc-900 border border-zinc-800 text-zinc-300 hover:text-amber-500 hover:border-amber-500 transition-all font-medium">新手教程</a>
+      <a href="/category/深度测评" class="px-6 py-2 rounded-full bg-zinc-900 border border-zinc-800 text-zinc-300 hover:text-amber-500 hover:border-amber-500 transition-all font-medium">深度测评</a>
+      <a href="/category/横向对比" class="px-6 py-2 rounded-full bg-zinc-900 border border-zinc-800 text-zinc-300 hover:text-amber-500 hover:border-amber-500 transition-all font-medium">横向对比</a>
+      <a href="/category/常见解答" class="px-6 py-2 rounded-full bg-zinc-900 border border-zinc-800 text-zinc-300 hover:text-amber-500 hover:border-amber-500 transition-all font-medium">常见解答</a>
+      <a href="/category/机场FAQ" class="px-6 py-2 rounded-full bg-zinc-900 border border-zinc-800 text-zinc-300 hover:text-amber-500 hover:border-amber-500 transition-all font-medium">机场FAQ</a>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-8">
+      {page.data.map((post: any) => <ArticleCard post={post} />)}
+    </div>
+    
+    <!-- Pagination UI -->
+    {page.lastPage > 1 && (
+      <div class="flex justify-center items-center mt-16 gap-3">
+        {page.url.prev ? (
+          <a href={page.url.prev} class="px-5 py-2.5 rounded-lg bg-zinc-900 border border-zinc-700 text-zinc-300 hover:border-amber-500 hover:text-amber-500 transition-colors font-medium shadow-sm">上一页</a>
+        ) : (
+          <span class="px-5 py-2.5 rounded-lg bg-zinc-900/40 border border-zinc-800/50 text-zinc-600 cursor-not-allowed font-medium">上一页</span>
+        )}
+        
+        <div class="px-4 py-2 bg-zinc-900/60 rounded-lg border border-zinc-800/80 text-zinc-400 font-medium tracking-wide">
+          <span class="text-zinc-200">{page.currentPage}</span> / {page.lastPage}
+        </div>
+        
+        {page.url.next ? (
+          <a href={page.url.next} class="px-5 py-2.5 rounded-lg bg-zinc-900 border border-zinc-700 text-zinc-300 hover:border-amber-500 hover:text-amber-500 transition-colors font-medium shadow-sm">下一页</a>
+        ) : (
+          <span class="px-5 py-2.5 rounded-lg bg-zinc-900/40 border border-zinc-800/50 text-zinc-600 cursor-not-allowed font-medium">下一页</span>
+        )}
+      </div>
+    )}
+  </div>
+</BaseLayout>
