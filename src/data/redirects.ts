@@ -26,5 +26,6 @@ export const REDIRECTS: Record<string, string> = {
   "edgenova": "https://work.edgenovaaff.cc/#/?code=z81zCfw1",
   "kexinyun": "https://work.kosingaff.com/#/?code=BNsA58Es",
   "sujie": "https://work.speedworldaff.cc/#/?code=wSjLCpIf",
-  "kuaili": "https://work.kuailicloud.cc/#/?code=gVGJa0Mp"
+  "kuaili": "https://work.kuailicloud.cc/#/?code=gVGJa0Mp",
+  "xiongmao": "https://cl888.cailudl.com:9999/#/register?code=MzbRXO35"
 };
