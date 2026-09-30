@@ -5,9 +5,18 @@ import { getCollection } from 'astro:content';
 
 const topics = await getCollection('topics');
 ---
-<BaseLayout title="专题聚合 - 系统化学习指南" description="精心整理的内容专题，助您从新手到极客。">
+<BaseLayout 
+  title="机场推荐专题：机场选择、评测与使用指南 | 机场翻" 
+  description="围绕机场推荐整理机场选择、机场评测、Clash配置、Shadowrocket、小火箭、Sing-box及科学上网等专题内容。"
+  keywords="机场推荐, 机场推荐专题, 机场选择, 机场评测, Clash机场推荐, 科学上网机场推荐, Shadowrocket教程"
+>
   <div class="max-w-6xl mx-auto px-4 py-16">
-    <h1 class="text-3xl font-bold mb-8 text-center">所有专题</h1>
+    <div class="text-center max-w-3xl mx-auto mb-12">
+      <h1 class="text-4xl md:text-5xl font-extrabold text-zinc-50 mb-4 tracking-tight">机场推荐专题</h1>
+      <p class="text-lg text-zinc-400">
+        聚焦系统化网络加速知识体系，汇集核心机场评测、客户端高级配置及科学上网实战专题。
+      </p>
+    </div>
     <TopicCluster topics={topics} />
   </div>
 </BaseLayout>

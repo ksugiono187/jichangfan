@@ -28,7 +28,11 @@ const realStats = [
   { label: '专题聚合', value: topics.length.toString() }
 ];
 ---
-<LandingLayout title="首页 - 机场推荐指南" description="专业的机场评测、教程与对比，帮您找到最适合的科学上网服务。">
+<LandingLayout 
+  title="机场推荐 2026：机场评测、对比与选择指南 | 机场翻" 
+  description="机场翻提供机场推荐、机场评测、机场对比与节点测速内容，整理不同机场的线路、速度、稳定性、协议与使用体验，帮助用户选择适合自己的机场服务。"
+  keywords="机场推荐, 机场推荐2026, 机场评测, 机场推荐指南, 机场推荐对比, 机场推荐测评, 高速机场推荐, 稳定机场推荐, 科学上网"
+>
   <Hero {...HOMEPAGE_DATA.hero} />
   <StatsStrip stats={realStats} />
   
@@ -48,7 +52,7 @@ const realStats = [
         {recentPosts.map(post => <ArticleCard post={post} />)}
       </div>
       <div class="text-center mt-10">
-        <a href="/blog/" class="inline-flex items-center text-amber-500 font-semibold hover:text-amber-600">查看更多文章 <svg class="w-4 h-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
+        <a href="/blog/" class="inline-flex items-center text-amber-500 font-semibold hover:text-amber-600">浏览更多机场评测文章 <svg class="w-4 h-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
       </div>
     </div>
   </section>
@@ -66,6 +70,9 @@ const realStats = [
       <div class="grid md:grid-cols-4 sm:grid-cols-2 gap-6">
         {brands.slice(0, 4).map(brand => <BrandCard brand={brand} />)}
       </div>
+      <div class="text-center mt-10">
+        <a href="/brands/" class="inline-flex items-center text-amber-500 font-semibold hover:text-amber-600">查看完整机场品牌推荐名录 <svg class="w-4 h-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
+      </div>
     </div>
   </section>
 
@@ -73,15 +80,41 @@ const realStats = [
     <div class="max-w-4xl mx-auto px-4">
       <SectionTitle title="方案横向对比" subtitle="多维度数据对比，一目了然" />
       <ComparisonTable />
-      
+      <div class="text-center mt-8">
+        <a href="/compare/" class="inline-flex items-center text-amber-500 font-semibold hover:text-amber-600">进入专业机场推荐对比中心 <svg class="w-4 h-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
+      </div>
     </div>
   </section>
 
   <section class="py-16 max-w-4xl mx-auto px-4 prose prose-invert prose-amber prose-a:text-amber-500 max-w-none">
-    <h2>关于机场评测与科学上网</h2>
-    <p>在这个信息高度互联的时代，获取全球资讯、访问流媒体服务成为了许多人的刚需。本站致力于提供客观、真实的评测内容，帮助用户在繁杂的市场中找到最适合自己的服务提供商。</p>
-    <h3>如何判断服务的优质程度？</h3>
-    <p>我们主要从节点覆盖率、晚高峰延迟、流媒体解锁支持（如 Netflix, Disney+）、价格以及客服响应速度等多个维度进行综合评估。</p>
+    <h2>什么是机场推荐？</h2>
+    <p>在这个信息高度互联的时代，获取全球资讯、访问学术文献与观看流媒体服务已成为日常刚需。所谓“机场”，是指基于现代代理协议（如 Shadowsocks、Vmess、Trojan、VLESS 及 Hysteria2）提供多节点出海流量转发的服务商。而一份负责任的<strong>机场推荐</strong>，核心在于打破行业信息不对称，通过客观、长期的真实测试，为用户筛选出速度稳定、不虚标带宽、且具备高可用 SLA 保障的优质节点服务。</p>
+
+    <h2>机场推荐应该看哪些指标？</h2>
+    <p>评估一家机场的优劣不能仅看宣传口号，我们建议重点考察以下几大核心指标：</p>
+    <ul>
+      <li><strong>线路架构：</strong>优先关注是否具备多入口 BGP 中转或内网专线（IPLC / IEPL），专线网络不经公网国际出口拥堵，晚高峰表现远优于传统直连线路。</li>
+      <li><strong>流媒体与 AI 解锁能力：</strong>是否支持 Netflix、Disney+ 等流媒体的非自制剧 4K 串流，以及是否能顺利通过 ChatGPT、Claude 等高风控平台的 IP 验证。</li>
+      <li><strong>协议支持与客户端适配：</strong>查阅我们的 <a href="/airport/">机场推荐指南</a>，了解服务商对 Clash、Shadowrocket、Sing-box 等主流工具的一键订阅支持程度。</li>
+      <li><strong>性价比与计费模式：</strong>套餐流量是否虚标，是否提供灵活的月付周期以降低试错成本。</li>
+    </ul>
+
+    <h2>机场推荐如何进行测速？</h2>
+    <p>很多新手容易被单次瞬时的“跑满千兆”截图所误导。在真正的机场评测中，测速必须涵盖跨宽带运营商（电信、联通、移动）测试，并重点关注<strong>晚高峰黄金时段（20:00 - 23:00）的下行带宽与丢包率</strong>。同时，单线程测速能力比多线程并发更能反映网页打开时的真实响应速度。</p>
+
+    <h2>机场推荐如何比较稳定性？</h2>
+    <p>稳定性是衡量机场品质的生命线。比较稳定性主要看两点：一是全天候丢包抖动率（Jitter），丢包率低于 1% 才能确保视频不转圈、网页秒开；二是节点冗余与灾备能力，优质服务商通常在同一区域配置多条备用线路，即使遇到运营商公网割接或网络波动也能秒级自动重路由。</p>
+
+    <h2>机场推荐适合哪些用户？</h2>
+    <p>不同群体的网络诉求差异显著，我们的 <a href="/brands/">机场品牌推荐</a> 库对各家服务进行了细分人群匹配：</p>
+    <ul>
+      <li><strong>跨境电商与外贸商务：</strong>对 IP 纯净度与连通率要求极高，推荐选用具备原生固定出口的专线机场。</li>
+      <li><strong>海外学术与科研人员：</strong>需要高速稳定的 Google Scholar、arXiv 等文献下载体验，平价中转即可胜任。</li>
+      <li><strong>4K 影音与流媒体玩家：</strong>重度依赖大带宽与节点原生解锁能力，建议参考我们的 <a href="/compare/">机场推荐对比</a> 挑选大带宽套餐。</li>
+    </ul>
+
+    <h2>如何选择适合自己的机场？</h2>
+    <p>无论营销文案多么诱人，我们始终贯彻“实测第一、按需匹配”的选购法则：<strong>首选月付试水，切忌冲动年付</strong>。您可以先在 <a href="/blog/">机场推荐博客</a> 查阅最新的单品深度测评，再结合自身的预算与宽带环境做出最明智的决策。</p>
   </section>
 
   <section class="py-20 bg-zinc-950">

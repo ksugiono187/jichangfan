@@ -6,9 +6,18 @@ import { getCollection } from 'astro:content';
 const brands = await getCollection('brands');
 brands.sort((a, b) => (a.data.sortOrder || 999) - (b.data.sortOrder || 999));
 ---
-<BaseLayout title="品牌库 - 优质服务商名录" description="收录经过筛选的优质服务提供商，提供详细信息。">
+<BaseLayout 
+  title="机场推荐品牌库：机场服务商评测与对比 | 机场翻" 
+  description="整理机场推荐品牌与机场服务商资料，提供线路、速度、稳定性、节点、协议、价格及实际使用表现等维度的信息，方便用户进行机场对比。"
+  keywords="机场推荐, 机场推荐品牌, 机场品牌推荐, 机场服务商, 机场评测, 机场对比, 专线机场推荐, 高速机场推荐"
+>
   <div class="max-w-6xl mx-auto px-4 py-16">
-    <h1 class="text-3xl font-bold mb-8 text-center">优质品牌库</h1>
+    <div class="text-center max-w-3xl mx-auto mb-12">
+      <h1 class="text-4xl md:text-5xl font-extrabold text-zinc-50 mb-4 tracking-tight">机场推荐品牌库</h1>
+      <p class="text-lg text-zinc-400">
+        汇集经过严格筛选的优质机场服务商。结合 <a href="/compare/" class="text-amber-500 hover:underline">机场推荐对比</a> 与 <a href="/airport/" class="text-amber-500 hover:underline">机场推荐指南</a>，助您快速对比各家线路、协议及定价方案。
+      </p>
+    </div>
     <div class="grid md:grid-cols-4 sm:grid-cols-2 gap-6">
       {brands.map(brand => <BrandCard brand={brand} />)}
     </div>

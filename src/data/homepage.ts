@@ -1,9 +1,9 @@
 export const HOMEPAGE_DATA = {
   hero: {
-    title: '2026机场推荐',
-    subtitle: '全网最客观真实的 2026 机场推荐指南。通过深度抓包与流媒体解锁实测，为您严选稳定、高性价比的专线机场，告别跑路风险。',
-    primaryCta: { text: '查看最新评测', href: '/blog/' },
-    secondaryCta: { text: '浏览品牌库', href: '/brands/' }
+    title: '2026机场推荐与机场评测指南',
+    subtitle: '机场翻专注于提供客观真实的机场推荐与机场评测。通过多宽带环境实测、晚高峰节点测速、稳定性监控与流媒体解锁数据，为您严选稳定、高速的优质机场服务。',
+    primaryCta: { text: '浏览机场推荐指南', href: '/airport/' },
+    secondaryCta: { text: '查看机场品牌推荐', href: '/brands/' }
   },
   stats: [
     { label: '收录品牌', value: '28' },

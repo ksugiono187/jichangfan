@@ -20,8 +20,13 @@ export async function getStaticPaths() {
 
 const { brand, nextBrand, prevBrand } = Astro.props;
 const { Content } = await render(brand);
+
+const pageTitle = `${brand.data.name}机场推荐与深度评测 | 机场翻`;
+const pageDescription = `${brand.data.name}机场推荐与深度评测，整理该机场的线路、速度、稳定性、节点、协议、设备支持及使用信息，帮助用户了解该机场服务。`;
+const tagsStr = brand.data.tags ? brand.data.tags.join(', ') : '';
+const pageKeywords = `${brand.data.name}, ${brand.data.name}机场推荐, ${brand.data.name}机场评测, 机场推荐, 机场评测, 机场对比${tagsStr ? ', ' + tagsStr : ''}`;
 ---
-<BaseLayout title={`${brand.data.name} 详情 | 机场翻`} description={brand.data.description}>
+<BaseLayout title={pageTitle} description={pageDescription} keywords={pageKeywords}>
   <div class="max-w-4xl mx-auto px-4 py-16">
     <!-- Header Card -->
     <div class="bg-zinc-900 border border-zinc-800 rounded-2xl p-8 mb-6 shadow-lg relative overflow-hidden">
@@ -29,14 +34,19 @@ const { Content } = await render(brand);
         <svg class="w-32 h-32" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2L2 22l10-3 10 3L12 2z"></path></svg>
       </div>
       <div class="relative z-10">
-        <h1 class="text-3xl font-extrabold mb-3 text-zinc-50">{brand.data.name}</h1>
+        <h1 class="text-3xl md:text-4xl font-extrabold mb-4 text-zinc-50">{brand.data.name}机场推荐与深度评测</h1>
         <div class="flex items-center gap-3 mb-5">
           <span class="text-xs font-bold bg-amber-500/10 text-amber-500 border border-amber-500/20 px-3 py-1 rounded-full uppercase tracking-wider">{brand.data.category}</span>
           {brand.data.tags && brand.data.tags.map((tag: string) => (
              <span class="text-xs text-zinc-400 bg-zinc-800 px-2 py-1 rounded-md">{tag}</span>
           ))}
         </div>
-        <p class="text-zinc-400 leading-relaxed max-w-2xl">{brand.data.description}</p>
+        <p class="text-zinc-300 leading-relaxed mb-4">
+          作为本次<strong>{brand.data.name}机场推荐</strong>与深度测评对象，我们整理了该服务商在节点线路、晚高峰带宽测速、流媒体解锁支持及多设备配置上的详实数据。
+        </p>
+        <p class="text-sm text-zinc-400 leading-relaxed max-w-2xl">
+          想了解更多通用配置方法请查阅 <a href="/airport/" class="text-amber-500 hover:underline">机场推荐指南</a>，查看各家横向参数请前往 <a href="/compare/" class="text-amber-500 hover:underline">机场推荐对比</a>。
+        </p>
         <div class="mt-8 flex gap-4">
           <a href={`/go/${brand.id}`} target="_blank" rel="nofollow noopener" class="inline-flex items-center justify-center bg-amber-500 text-zinc-950 px-8 py-3 rounded-xl font-bold hover:bg-amber-400 transition-all shadow-[0_0_15px_rgba(245,158,11,0.2)]">
             访问官网

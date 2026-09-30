@@ -1,7 +1,7 @@
 export const SITE = {
-  title: '机场翻 - 2026专业级网络服务与科学上网节点评测指南',
-  description: '机场翻提供客观独立的高端机场推荐与VPN节点横向评测。涵盖Clash/Shadowrocket配置教程、Netflix流媒体解锁数据与真实测速报告，助您安全稳定地访问全球网络服务。',
-  keywords: '机场推荐,科学上网,节点评测,VPN推荐,Clash教程,流媒体解锁,高端机场',
+  title: '机场推荐 2026：专业机场评测与选择指南 | 机场翻',
+  description: '机场翻专注机场推荐与机场评测，提供机场推荐指南、节点测速、稳定性测试、线路对比、Clash配置教程及科学上网使用指南，帮助用户了解不同机场服务。',
+  keywords: '机场推荐, 机场评测, 机场推荐2026, 机场推荐指南, 机场推荐对比, 机场推荐测评, 科学上网, 节点评测, Clash教程, VPN推荐',
   author: '机场翻',
   defaultLanguage: 'zh-CN',
   domain: 'https://jichangfan.wiki',

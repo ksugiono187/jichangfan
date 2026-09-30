@@ -13,12 +13,19 @@ export async function getStaticPaths({ paginate }: { paginate: any }) {
 
 const { page } = Astro.props as any;
 const pageTitle = page.currentPage > 1 
-  ? `博客文章 (第 ${page.currentPage} 页) - 最新评测与教程 | 机场翻` 
-  : `博客文章 - 最新评测与教程 | 机场翻`;
+  ? `机场推荐博客 (第 ${page.currentPage} 页)：机场评测、教程与科学上网指南 | 机场翻` 
+  : `机场推荐博客：机场评测、教程与科学上网指南 | 机场翻`;
+const pageDescription = "阅读机场推荐、机场评测、节点测速、Clash配置、Shadowrocket教程及科学上网相关内容，持续了解机场服务与节点使用信息。";
+const pageKeywords = "机场推荐, 机场评测, 机场推荐指南, 机场推荐教程, 节点测速, Clash教程, Shadowrocket教程, 科学上网";
 ---
-<BaseLayout title={pageTitle} description="浏览我们最新的机场评测、使用教程和行业资讯。">
+<BaseLayout title={pageTitle} description={pageDescription} keywords={pageKeywords}>
   <div class="max-w-6xl mx-auto px-4 py-16">
-    <SectionTitle title="博客文章" subtitle="最新评测、使用教程与行业资讯" />
+    <div class="text-center max-w-3xl mx-auto mb-12">
+      <h1 class="text-4xl md:text-5xl font-extrabold text-zinc-50 mb-4 tracking-tight">机场推荐与机场评测博客</h1>
+      <p class="text-lg text-zinc-400 leading-relaxed">
+        欢迎来到机场翻的<strong>机场推荐</strong>与<strong>机场评测</strong>博客专栏。我们为您提供实用的<strong>机场推荐指南</strong>、多线路节点测速数据、主流客户端配置教程以及前沿网络加速科普，助您轻松挑选并稳定使用高品质出海节点。
+      </p>
+    </div>
     
     <!-- Categories Navigation -->
     <div class="flex flex-wrap justify-center gap-4 mb-12">

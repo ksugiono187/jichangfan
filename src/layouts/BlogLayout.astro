@@ -10,9 +10,11 @@ interface Props {
   prevPost?: CollectionEntry<'blog'> | null;
 }
 const { post, nextPost, prevPost } = Astro.props;
-const keywords = post.data.tags ? post.data.tags.join(', ') : undefined;
+const pageTitle = `${post.data.title} | 机场推荐与机场翻`;
+const tagKeywords = post.data.tags ? post.data.tags.join(', ') + ', ' : '';
+const keywords = `${tagKeywords}机场推荐, 机场评测, 机场推荐指南`;
 ---
-<BaseLayout title={post.data.title} description={post.data.description} keywords={keywords} image={post.data.image}>
+<BaseLayout title={pageTitle} description={post.data.description} keywords={keywords} image={post.data.image}>
   <div class="max-w-4xl mx-auto px-4 py-8">
     <Breadcrumb items={[{label: '博客', href: '/blog/'}, {label: post.data.title}]} />
     
@@ -51,6 +53,12 @@ const keywords = post.data.tags ? post.data.tags.join(', ') : undefined;
       
       <div class="prose prose-lg max-w-none prose-invert prose-amber prose-img:rounded-xl prose-headings:text-zinc-100 prose-a:text-amber-500 hover:prose-a:text-amber-400">
         <slot />
+      </div>
+      
+      <!-- Internal Linking Section -->
+      <div class="mt-10 p-5 rounded-2xl bg-zinc-950/60 border border-zinc-800 text-sm text-zinc-400 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+        <span>📖 更多客户端配置与节点原理，请阅读我们的 <a href="/airport/" class="text-amber-500 hover:underline font-medium">机场推荐指南</a>。</span>
+        <span>🔍 查看真实服务商评测对比：<a href="/brands/" class="text-amber-500 hover:underline font-medium">机场品牌推荐名录</a></span>
       </div>
       
       <!-- Bottom Navigation -->
